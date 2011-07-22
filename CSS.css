@@ -1,0 +1,113 @@
+.do-base-layers{
+	background-image: url("ICONS/base_layers.png") !important;
+	background-repeat: no-repeat;
+}
+
+.do-identify{
+	background-image: url("ICONS/identify.png") !important;
+	background-repeat: no-repeat;
+}
+
+.do-zoom-in{
+	background-image: url("ICONS/zoom_in.png") !important;
+	background-repeat: no-repeat;
+}
+
+.do-zoom-out{
+	background-image: url("ICONS/zoom_out.png") !important;
+	background-repeat: no-repeat;
+}
+
+.do-zoom-box{
+	background-image: url("ICONS/zoom_box.png") !important;
+	background-repeat: no-repeat;
+}
+
+.do-previous-extent{
+	background-image: url("ICONS/extent_pre.png") !important;
+	background-repeat: no-repeat;
+}
+
+.do-next-extent{
+	background-image: url("ICONS/extent_nxt.png") !important;
+	background-repeat: no-repeat;
+}
+
+.do-pan{
+	background-image: url("ICONS/pan.png") !important;
+	background-repeat: no-repeat;
+}
+
+.do-full-extent{
+	background-image: url("ICONS/extent_full.png") !important;
+	background-repeat: no-repeat;
+}
+
+.do-help{
+	background-image: url("ICONS/help.png") !important;
+	background-repeat: no-repeat;
+}
+
+.do-plus{
+	background-image: url("ICONS/plus.png") !important;
+	background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center center;
+}
+
+.do-minus{
+	background-image: url("ICONS/minus.png") !important;
+	background-repeat: no-repeat;
+}
+
+.x-grid3-cell-inner { 
+	white-space: normal; 
+}
+
+#C_FONT {
+	font-family: "FGDCGeoAge",sans-serif;
+}
+
+
+#I_HEADER {
+    background-image: url("SRC/MapBanner.png");
+    border-color: black;
+    border-style: none solid;
+    border-width: 1px;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+}
+
+#M_G_STR, #M_G_SAT, #M_G_HYB, #M_G_PHY{
+    color: #15428B;
+    font-family: tahoma,arial,verdana,sans-serif;
+    font-size: 11px;
+}
+
+#LEGEND_PANEL {
+    color: #15428B;
+}
+
+#PLUS, #MINUS {
+    position: absolute;   
+    z-index: 1000;
+    border-style: none;
+}
+
+#PLUS button, #MINUS button {
+    height: 12px;
+    width: 14px;
+    border-style: none;
+}
+
+.x-menu-item-checked .x-menu-group-item .x-menu-item-icon {
+    background-image: url("SRC/check-mark.png");
+}
+
+.x-toolbar div.xtb-text {
+    color: #15428B;
+    font-family: tahoma,arial,verdana,sans-serif;
+    font-size: 11px;
+}
+
