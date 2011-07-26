@@ -111,3 +111,24 @@
     font-size: 11px;
 }
 
+/****************Change legend css****************************/
+.dmu_item_title {
+    font-size: 14px !important; 
+    font-weight: bold !important;
+}
+
+.dmu_item_block * {
+    padding: 3px !important;
+}
+
+.dmu_item_color {
+    border: 1px solid #15428B !important;
+    height: 18px !important;
+    margin: 3px !important;
+    width: 40px !important;
+}
+
+.dmu_item_label {
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
