@@ -71,11 +71,11 @@
 
 #I_HEADER {
     background-image: url("SRC/MapBanner.png");
-    border-color: black;
+    border-color: #7787A1;
     border-style: none solid;
     border-width: 1px;
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: #7787A1;
     background-position: center;
 }
 
