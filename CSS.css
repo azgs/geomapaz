@@ -85,7 +85,7 @@
     font-size: 11px;
 }
 
-#LEGEND_PANEL {
+#LEGEND_PANEL{
     color: #15428B;
 }
 
@@ -117,7 +117,7 @@
     font-weight: bold !important;
 }
 
-.dmu_item_block * {
+.dmu_item_block {
     padding: 3px !important;
 }
 
@@ -132,4 +132,9 @@
     font-size: 14px !important;
     font-weight: bold !important;
     text-align: center;
+}
+
+#LEGEND_LINES {
+    font-size: small;
+    font-family: sans-serif;
 }

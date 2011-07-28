@@ -121,18 +121,18 @@ function updateLegend() {
 		},
 		method: 'GET',
 		success: function(result, request) {
-			Ext.getCmp('LEGEND_PANEL').removeAll();
+			Ext.getCmp('lEGEND_UNITS').removeAll();
 
 			var legendContainer = {
 				xtype: 'container',
 				layout: 'fit',
 				html: result.responseText,
 				autoScroll: true,
-				id: 'LEGEND_CONTAINER'
+				id: 'LEGEND_UNITS_CONTAINER'
 			};
 
-			Ext.getCmp('LEGEND_PANEL').add(legendContainer);
-			Ext.getCmp('LEGEND_PANEL').doLayout();
+			Ext.getCmp('lEGEND_UNITS').add(legendContainer);
+			Ext.getCmp('lEGEND_UNITS').doLayout();
 		},
 		failure: function() {
 			/*
