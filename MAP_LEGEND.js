@@ -16,6 +16,9 @@ function addMap() {
 		controls: [
 		new OpenLayers.Control.Navigation({
 			id: 'C_PAN'
+		}),
+		new OpenLayers.Control.ZoomPanel({
+			id: 'C_ZOOM_PANEL'
 		})
 		],
 		maxExtent: new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34),
@@ -152,32 +155,7 @@ function updateLegend() {
 //Create zoom slider
 //Global variable: zoomPlus, zoomMinus
 
-var zoomPlus, zoomMinus;
 function addZoomSlider() {
-	zoomPlus = {
-			xtype: 'button',
-			id: 'PLUS',
-			iconCls: 'do-plus',
-			x: 10,
-			y: 22,
-			group: 'tool',
-			handler: function(button, state){
-				map.getControl('C_ZOOM_IN').trigger();
-			}	
-		};
-		
-	zoomMinus = {
-			xtype: 'button',
-			id: 'MINUS',
-			iconCls: 'do-minus',
-			x: 10,
-			y: 248,
-			group: 'tool',
-			handler: function(button, state){
-				map.getControl('C_ZOOM_OUT').trigger();
-			}	
-		};
-	
 	zoomSlider = new GeoExt.ZoomSlider({
 		id: 'I_ZOOM_SLIDER',
 		aggressive: true,
@@ -192,45 +170,3 @@ function addZoomSlider() {
 
 }
 
-
-function addConflictSolver(){
-	Ext.getCmp('PLUS').el.hover(
-		function(){
-			if(Ext.getCmp('I_IDENTIFY').pressed){
-				ctrlIdentify.deactivate();
-			};
-			if(Ext.getCmp('I_ZOOM_BOX').pressed){
-				ctrlZoomBox.deactivate();
-			};
-			
-		},
-		function(){
-			if(Ext.getCmp('I_IDENTIFY').pressed){
-				ctrlIdentify.activate();
-			};
-			if(Ext.getCmp('I_ZOOM_BOX').pressed){
-				ctrlZoomBox.activate();
-			};			
-		}
-	);
-	
-	Ext.getCmp('MINUS').el.hover(
-		function(){
-			if(Ext.getCmp('I_IDENTIFY').pressed){
-				ctrlIdentify.deactivate();
-			};
-			if(Ext.getCmp('I_ZOOM_BOX').pressed){
-				ctrlZoomBox.deactivate();
-			};
-		},
-		function(){
-			if(Ext.getCmp('I_IDENTIFY').pressed){
-				ctrlIdentify.activate();
-			};
-			if(Ext.getCmp('I_ZOOM_BOX').pressed){
-				ctrlZoomBox.activate();
-			};				
-		}
-	);
-	
-}

@@ -46,15 +46,6 @@
 			var extentFull = new OpenLayers.Bounds(-13094234.731837, 3830127.2781783, -11834552.505923, 4331554.1836393);
 			
 			Ext.onReady(function() {
-				/*
-				if(Ext.isIE6 || Ext.isIE7 || Ext.isIE8){
-						Ext.Msg.show({
-							title:'Browser Warning',
-							minWidth: 250,
-							msg: 'Sorry, your IE hates my page.<br />Please use Chrome/Firefox instead',
-							icon: Ext.MessageBox.INFO
-						});	
-				}*/
 				
 				Ext.QuickTips.init(); //Init tool tips
 				OpenLayers.ProxyHost = "http://services.usgin.org/ncgmp/proxy?url=";
@@ -98,9 +89,9 @@
 						region: 'center',
 						extent: extentFull,
 						items: [
-							zoomPlus,
-							zoomSlider,
-							zoomMinus
+							//zoomPlus,
+							zoomSlider
+							//zoomMinus
 						],
 						tbar: {
 							xtype: 'toolbar'
@@ -164,12 +155,9 @@ Ext.getCmp('MAP_PANEL').bottomToolbar.add('->');
 addItemMousePosition();
 Ext.getCmp('MAP_PANEL').bottomToolbar.add(itemMousePosition);
 
-addLogo();
-addConflictSolver();			
+addLogo();		
 			})
 //================================================================================================================					})
-
-
 		
 		
 		</script>

@@ -48,18 +48,6 @@
 	background-repeat: no-repeat;
 }
 
-.do-plus{
-	background-image: url("ICONS/plus.png") !important;
-	background-repeat: no-repeat;
-    background-color: transparent;
-    background-position: center center;
-}
-
-.do-minus{
-	background-image: url("ICONS/minus.png") !important;
-	background-repeat: no-repeat;
-}
-
 .x-grid3-cell-inner { 
 	white-space: normal; 
 }
@@ -137,4 +125,30 @@
 #LEGEND_LINES {
     font-size: small;
     font-family: sans-serif;
+}
+
+/****************Change css for zoom panel*******************/
+
+.olControlZoomPanel div {
+    background-image:url(SRC/tool-sprites.gif) !important;
+    height:15px !important;
+    width:15px !important;
+    /* workaround for button height in IE */
+    font-size:0px;
+}
+
+.olControlZoomPanel .olControlZoomToMaxExtentItemInactive {
+    display: none;
+}
+
+.olControlZoomPanel .olControlZoomInItemInactive {
+    background-position:15px -240px !important;
+    top: -45px !important;
+    left: -2px !important;
+}
+
+.olControlZoomPanel .olControlZoomOutItemInactive {
+    background-position:15px -255px !important;
+    top: 178px !important;
+    left: -1px !important;
 }
