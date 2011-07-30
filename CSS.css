@@ -152,3 +152,55 @@
     top: 178px !important;
     left: -1px !important;
 }
+
+/****************Change css for help document**************/
+#M_HELP_UA, #M_HELP_AM, #M_HELP_AS, #M_HELP_AA{
+    color: #15428B;
+}
+
+#P_HELP_UA, #P_HELP_AM, #P_HELP_AS, #P_HELP_AA{
+    color: #15428B;
+}
+
+#P_HELP_UA .x-panel-body-noheader, .x-panel-mc .x-panel-body {
+	font-size: 12px;
+    padding: 20px;
+}
+
+#P_HELP_UA p {
+    padding: 10px !important;
+}
+
+#P_HELP_UA ul {
+    list-style: disc inside none !important;
+    padding: 15px !important;
+}
+
+#P_HELP_AM .x-panel-body-noheader, .x-panel-mc .x-panel-body {
+	font-size: 12px;
+    padding: 20px;
+}
+
+#P_HELP_AM p {
+    padding: 10px !important;
+}
+
+#P_HELP_AS .x-panel-body-noheader, .x-panel-mc .x-panel-body {
+	font-size: 12px;
+    padding: 20px;
+}
+
+#P_HELP_AS ul {
+    list-style: disc inside none !important;
+    padding: 10px !important;
+}
+
+#P_HELP_AA .x-panel-body-noheader, .x-panel-mc .x-panel-body {
+	font-size: 12px;
+    padding: 20px;
+}
+
+#P_HELP_AA ul {
+    list-style: disc inside none !important;
+    padding: 10px !important;
+}
