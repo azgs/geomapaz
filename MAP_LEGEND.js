@@ -75,7 +75,7 @@ function addMap() {
 	},
 	{	isBaseLayer: false,
 		singleTile: true,
-		minResolution: 2445.9849046875
+		maxResolution: 17034.82829271617
 	}
 	);
 	
