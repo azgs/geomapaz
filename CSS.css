@@ -125,7 +125,21 @@
 #LEGEND_LINES {
     font-size: small;
     font-family: sans-serif;
+    border-style: solid;
+    border-width: 1px;
 }
+
+#LEGEND_UNITS_CONTAINER {
+    font-family: sans-serif;
+    border-color: #99BBE8;
+    border-style: solid;
+    border-width: 1px;	
+}
+
+#LEGEND_PANEL .x-panel-body{
+    border: none;
+}
+
 
 /****************Change css for zoom panel*******************/
 
@@ -204,3 +218,4 @@
     list-style: disc inside none !important;
     padding: 10px !important;
 }
+
