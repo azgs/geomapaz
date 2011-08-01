@@ -74,7 +74,8 @@ function addMap() {
 		transparent: 'true'
 	},
 	{	isBaseLayer: false,
-		singleTile: true
+		singleTile: true,
+		maxResolution: 2445.9849046875
 	}
 	);
 	
