@@ -67,9 +67,9 @@
     background-position: center;
 }
 
-#M_G_STR, #M_G_SAT, #M_G_HYB, #M_G_PHY{
-    color: #15428B;
-    font-family: tahoma,arial,verdana,sans-serif;
+.x-menu-item-text {
+    color: #15428B !important;
+    font-family: tahoma,arial,verdana,sans-serif !important;
     font-size: 11px;
 }
 
@@ -169,11 +169,8 @@
 }
 
 /****************Change css for help document**************/
-#M_HELP_UA, #M_HELP_AM, #M_HELP_AS, #M_HELP_AA{
-    color: #15428B;
-}
 
-#P_HELP_UA, #P_HELP_AM, #P_HELP_AS, #P_HELP_AA{
+#P_HELP_UA, #P_HELP_AM, #P_HELP_AS, #P_HELP_AA, #P_HELP_IF{
     color: #15428B;
 }
 
@@ -187,6 +184,20 @@
 }
 
 #P_HELP_UA ul {
+    list-style: disc inside none !important;
+    padding: 15px !important;
+}
+
+#P_HELP_IF .x-panel-body-noheader, .x-panel-mc .x-panel-body {
+	font-size: 12px;
+    padding: 20px;
+}
+
+#P_HELP_IF p {
+    padding: 10px !important;
+}
+
+#P_HELP_IF ul {
     list-style: disc inside none !important;
     padding: 15px !important;
 }

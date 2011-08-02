@@ -12,6 +12,7 @@ function addItemLayerSwitcher(icon){
 		height: 30,
 		menu: {
 			xtype: 'menu',
+			width: 120,
 			id: 'M_G_ALL',
 			items: [{
 				xtype: 'menucheckitem',
