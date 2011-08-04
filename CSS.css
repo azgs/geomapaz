@@ -52,6 +52,12 @@
 	white-space: normal; 
 }
 
+@font-face	{
+	font-family: "FGDCGeoAge";
+	src: url('FGDCGA.TTF');	
+}
+
+
 #C_FONT {
 	font-family: "FGDCGeoAge",sans-serif;
 }
