@@ -52,17 +52,19 @@
 	white-space: normal; 
 }
 
+/**********Define font for IE and other browsers******************/
+
+@font-face	{
+	font-family: "FGDCGeoAgeIE";
+	src: url('FGDCGA.eot');
+}
+
 @font-face	{
 	font-family: "FGDCGeoAge";
 	src: url('FGDCGA.TTF');	
 }
 
-
-#C_FONT {
-	font-family: "FGDCGeoAge",sans-serif;
-}
-
-
+/*****************************************************************/
 #I_HEADER {
     background-image: url("SRC/MapBanner.png");
     border-color: #7787A1;

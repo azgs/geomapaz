@@ -70,7 +70,7 @@ function addMap() {
 	"Contacts, Faults and other Lines",
 	"http://50.19.88.63/ArcGIS/services/GeologicMapOfArizona/MapServer/WMSServer", {
 		layers: ['1', '2'],
-		format: 'image/gif',
+		format: 'image/png',
 		transparent: 'true'
 	},
 	{	isBaseLayer: false,
@@ -84,7 +84,7 @@ function addMap() {
 	"Distribution of Map Units",
 	"http://50.19.88.63/ArcGIS/services/GeologicMapOfArizona/MapServer/WMSServer", {
 		layers: ['0'],
-		format: 'image/gif',
+		format: 'image/png',
 		transparent: 'true'
 	},
 	{	isBaseLayer: false,
