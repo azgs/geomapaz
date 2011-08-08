@@ -68,7 +68,7 @@
 #I_HEADER {
     background-image: url("SRC/MapBanner.png");
     border-color: #99BBE8;
-    border-style: none solid;
+    border-style: solid;
     border-width: 1px;
     background-repeat: no-repeat;
     background-color: #7787A1;
