@@ -9,7 +9,7 @@ var map, wmsPolylineLayer, wmsPolygonLayer, selectLayer;
 			var itemLineLegend;
 			var extentFull = new OpenLayers.Bounds(-13094234.731837, 3830127.2781783, -11834552.505923, 4331554.1836393);
 			
-			Ext.onReady(function() {
+			function init() {
 //=====Identify the type of browser===============================================================================
 			if(Ext.isIE){
 				Ext.util.CSS.createStyleSheet('#C_FONT{font-family: "FGDCGeoAgeIE",sans-serif;}', 'tabCssIE');
@@ -128,7 +128,7 @@ addItemMousePosition();
 Ext.getCmp('MAP_PANEL').bottomToolbar.add(itemMousePosition);
 
 addLogo();		
-			})
+			}
 //================================================================================================================					})
 		
 		
