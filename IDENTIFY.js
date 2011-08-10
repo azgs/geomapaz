@@ -130,8 +130,8 @@ function addPopup(feature) {
 			maximizable: true,
 			collapsible: true,
 			autoScroll: true,
-    		autoWidth: true,
-    		resizable: true
+    		resizable: true,
+    		width: 450
 		});
 //Create a new attributes table object//////////////////////////
 	var objAttr = new objAttributeTab(feature.attributes);
@@ -181,7 +181,7 @@ function objAttributeTab(attributes){
 			columns: [{
 				id: 'COL_NAME',
 				header: "Name",
-				width: 200,
+				width: 125,
 				sortable: false,
 				dataIndex: 'name'
 			},{
