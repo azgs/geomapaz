@@ -10,7 +10,7 @@ var itemOpacityTips;
 function addItemOpacitySlider(){
 	
 itemOpacityTips = new Ext.Toolbar.TextItem({
-	text: '25%',
+	text: '0%',
 	id: 'I_OPACITY_SLIDER_TIPS'
 });
 

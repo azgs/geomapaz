@@ -88,8 +88,8 @@ function addMap() {
 		transparent: 'true'
 	},
 	{	isBaseLayer: false,
-		singleTile: true,
-		opacity: 0.75}
+		singleTile: true
+		}
 	);
 
 	//Create a vector layer to highlight selected feature//////////////////////////
