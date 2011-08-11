@@ -29,6 +29,13 @@ function addMap() {
 		}
 	});
 	
+	v3Layers = new googleLayers3();
+	gStrLayer = v3Layers.streets;
+	gSatLayer = v3Layers.satellite;
+	gHybLayer = v3Layers.hybrid;
+	gPhyLayer = v3Layers.physical;
+	
+	/*
 	gStrLayer = new OpenLayers.Layer.Google(
         "Google Streets",
         {
@@ -64,6 +71,7 @@ function addMap() {
         	projection: map.projection
         }
     );
+    */
 
 	//Create wms polyline base layer/////////////////////////////////////////////////////////
 	wmsPolylineLayer = new OpenLayers.Layer.WMS(
