@@ -15,7 +15,7 @@ itemLogo = {
 		width: 64,
 		//html: '<img id="LOGO" src="SRC/logo.png" width="64" height="64" style="opacity:0.75;"/>',
 		bodyStyle: 'background: none;',
-		style: 'position: absolute; z-index: 1100; background: none; right: 5px; bottom: 5px; width: 64px; height: 64px; background-image: url("SRC/logo.png");cursor: pointer; opacity: 0.9;',
+		style: 'position: absolute; z-index: 1100; background: none; right: 5px; bottom: 5px; width: 64px; height: 64px; background-image: url("SRC/logo.png");cursor: pointer;',
 		hideBorders: true,
 		border: false
 };
