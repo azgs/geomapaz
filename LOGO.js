@@ -2,55 +2,28 @@
  * @author Genhan Chen
  * Add AZGS logo into map
  * 
- * We need to add logo element into html body first,
- * e.g. <img id='LOGO' src='logo.png' width='64' height='64' style='opacity:0.75; padding:20px 20px 20px 20px;'/>	
  */
 
+var itemLogo;
 
 function addLogo(){
+	
+itemLogo = {
+		xtype: 'panel',
+		id: 'I_LOGO',
+		html: '<img id="LOGO" src="SRC/logo.png" width="64" height="64" style="opacity:0.75;"/>',
+		bodyStyle: 'position: absolute; z-index: 1100; background: none; right: 5px; bottom: 5px; cursor: pointer;',
+		//style: '',
+		hideBorders: true,
+		border: false
+};
 
-//Initial position of image	
+}
 
-viewPort.on('add',function(){
-	Ext.get('LOGO').alignTo(
-		Ext.getCmp('MAP_PANEL').bottomToolbar.el,
-		'br-tr');
-		}
-	);
-		
-//Turn on 'afterlayout' event for viewport
-//The logo will be relocated evertime the viewport's layout is changed
-viewPort.addListener('afterlayout',
-	function(){
-	Ext.get('LOGO').alignTo(
-		Ext.getCmp('MAP_PANEL').bottomToolbar.el,
-		'br-tr');
-		}
-	);
+function addLogoFunction(){
 
-//Click logo jumping into AZGS website
-Ext.get('LOGO').hover(
-    function(){
-    	Ext.get('LOGO').setStyle('cursor','pointer');
-    	
-    	//Resolve the conflict with 'Identify'
-    	if(Ext.getCmp('I_IDENTIFY').pressed){
-			ctrlIdentify.deactivate();
-		}
-    },
-    function(){
-    	Ext.get('LOGO').setStyle('cursor','default');
-    	
-    	//Resolve the conflict with 'Identify'
-		if(Ext.getCmp('I_IDENTIFY').pressed){
-			ctrlIdentify.activate();
-		}    	
-    }
-)
-
-Ext.get('LOGO').addListener('click', 
+Ext.getCmp('I_LOGO').el.addListener('click', 
 	function(){
 		self.location.href='http://www.azgs.az.gov';
-	});
-
+	});	
 }

@@ -27,6 +27,7 @@ var map, wmsPolylineLayer, wmsPolygonLayer, selectLayer;
 
 				addHeader();
 				addLineLegend();
+				addLogo();
 //================================================================================================================
 //Define the overall layout			
 			viewPort = new Ext.Viewport({
@@ -62,7 +63,8 @@ var map, wmsPolylineLayer, wmsPolygonLayer, selectLayer;
 						extent: extentFull,
 						items: [
 							//zoomPlus,
-							zoomSlider
+							zoomSlider,
+							itemLogo
 							//zoomMinus
 						],
 						tbar: {
@@ -127,7 +129,7 @@ Ext.getCmp('MAP_PANEL').bottomToolbar.add('->');
 addItemMousePosition();
 Ext.getCmp('MAP_PANEL').bottomToolbar.add(itemMousePosition);
 
-addLogo();		
+addLogoFunction();		
 			}
 //================================================================================================================					})
 		
