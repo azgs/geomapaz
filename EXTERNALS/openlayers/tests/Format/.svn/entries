@@ -279,40 +279,6 @@ has-props
 Filter
 dir
 
-KML.html
-file
-
-
-
-
-2011-08-09T19:44:05.435219Z
-da5a3c3f0bc27514426941d2e87c59c7
-2011-08-08T13:51:56.583640Z
-12218
-ahocevar
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-52201
-
 OGCExceptionReport.html
 file
 
@@ -383,6 +349,40 @@ pgiraud
 
 
 638
+
+KML.html
+file
+
+
+
+
+2011-08-11T21:10:32.065174Z
+da5a3c3f0bc27514426941d2e87c59c7
+2011-08-08T13:51:56.583640Z
+12218
+ahocevar
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+52201
 
 Text.html
 file
@@ -523,40 +523,6 @@ bartvde
 XML
 dir
 
-GPX.html
-file
-
-
-
-
-2011-07-19T21:35:13.969238Z
-95dca7cbf84ef43a8b8cf99eca24a663
-2011-02-21T10:10:25.916566Z
-11162
-pgiraud
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3339
-
 WMSGetFeatureInfo.html
 file
 
@@ -590,6 +556,40 @@ has-props
 
 
 16382
+
+GPX.html
+file
+
+
+
+
+2011-07-19T21:35:13.969238Z
+95dca7cbf84ef43a8b8cf99eca24a663
+2011-02-21T10:10:25.916566Z
+11162
+pgiraud
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3339
 
 GeoRSS.html
 file
@@ -727,10 +727,10 @@ has-props
 
 1697
 
-SOSCapabilities
+CSWGetRecords
 dir
 
-CSWGetRecords
+SOSCapabilities
 dir
 
 WMSCapabilities

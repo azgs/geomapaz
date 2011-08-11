@@ -94,40 +94,6 @@ marcjansen
 
 1888
 
-animator.js
-file
-
-
-
-
-2011-07-19T21:35:15.249238Z
-e6589d4c48c810ea5e5a289ad37e79b8
-2008-09-12T08:58:23.272870Z
-8003
-tschaub
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-23327
-
 sundials.html
 file
 
@@ -161,6 +127,40 @@ ahocevar
 
 
 3706
+
+animator.js
+file
+
+
+
+
+2011-07-19T21:35:15.249238Z
+e6589d4c48c810ea5e5a289ad37e79b8
+2008-09-12T08:58:23.272870Z
+8003
+tschaub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+23327
 
 canvas.js
 file
@@ -338,7 +338,7 @@ file
 
 
 
-2011-08-09T19:44:05.605219Z
+2011-08-11T21:10:33.015174Z
 d5d1ea3a694df7a803e32d5880e9fda7
 2011-08-03T15:55:14.275067Z
 12206
@@ -400,40 +400,6 @@ tschaub
 
 1129
 
-transform-feature.html
-file
-
-
-
-
-2011-07-19T21:35:15.249238Z
-94fef0ae2042510384c9ce756fac9889
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4592
-
 georss-markers.html
 file
 
@@ -468,14 +434,14 @@ has-props
 
 1771
 
-mobile.html
+transform-feature.html
 file
 
 
 
 
 2011-07-19T21:35:15.249238Z
-755e85670befb1144e85314770bbf014
+94fef0ae2042510384c9ce756fac9889
 2011-06-14T06:46:13.827660Z
 12082
 marcjansen
@@ -500,7 +466,7 @@ marcjansen
 
 
 
-2999
+4592
 
 google-reproject.html
 file
@@ -535,6 +501,40 @@ marcjansen
 
 
 2379
+
+mobile.html
+file
+
+
+
+
+2011-07-19T21:35:15.249238Z
+755e85670befb1144e85314770bbf014
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2999
 
 boxes-vector.html
 file
@@ -950,7 +950,7 @@ file
 
 
 
-2011-08-09T19:44:05.605219Z
+2011-08-11T21:10:33.015174Z
 3d129eaec09ed9512e34faf090cb56ce
 2011-08-08T08:19:06.075541Z
 12213
@@ -1046,40 +1046,6 @@ has-props
 
 7392
 
-popups.html
-file
-
-
-
-
-2011-07-19T21:35:15.249238Z
-4a299757c9504fab99a4f4c0d617fd6b
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5149
-
 draw-feature.html
 file
 
@@ -1113,6 +1079,40 @@ has-props
 
 
 5459
+
+popups.html
+file
+
+
+
+
+2011-07-19T21:35:15.249238Z
+4a299757c9504fab99a4f4c0d617fd6b
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5149
 
 select-feature-openpopup.html
 file
@@ -1148,40 +1148,6 @@ has-props
 
 4168
 
-georss.html
-file
-
-
-
-
-2011-07-19T21:35:15.249238Z
-acf97270b4fa84f2e1461b3f9ab5e398
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2846
-
 anchor-permalink.js
 file
 
@@ -1215,6 +1181,40 @@ erilem
 
 
 399
+
+georss.html
+file
+
+
+
+
+2011-07-19T21:35:15.249238Z
+acf97270b4fa84f2e1461b3f9ab5e398
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2846
 
 wms-long-url.html
 file
@@ -1250,40 +1250,6 @@ marcjansen
 
 1766
 
-bing-tiles-restrictedzoom.html
-file
-
-
-
-
-2011-07-19T21:35:15.249238Z
-c01ada6f32cf91fb520c3799f75fd9bc
-2011-06-18T19:27:27.160285Z
-12107
-ahocevar
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1507
-
 wfs-states.js
 file
 
@@ -1317,6 +1283,40 @@ ahocevar
 
 
 966
+
+bing-tiles-restrictedzoom.html
+file
+
+
+
+
+2011-07-19T21:35:15.249238Z
+c01ada6f32cf91fb520c3799f75fd9bc
+2011-06-18T19:27:27.160285Z
+12107
+ahocevar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1507
 
 worldwind.html
 file
@@ -1454,40 +1454,6 @@ tschaub
 
 2007
 
-sld.js
-file
-
-
-
-
-2011-08-09T19:44:05.605219Z
-f626f9062f02209ff3dff552222e2115
-2011-08-03T15:55:14.275067Z
-12206
-fredj
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3317
-
 style.mobile.css
 file
 
@@ -1521,6 +1487,40 @@ erilem
 
 
 565
+
+sld.js
+file
+
+
+
+
+2011-08-11T21:10:33.015174Z
+f626f9062f02209ff3dff552222e2115
+2011-08-03T15:55:14.275067Z
+12206
+fredj
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3317
 
 xhtml.html
 file
@@ -1596,7 +1596,7 @@ file
 
 
 
-2011-08-09T19:44:05.605219Z
+2011-08-11T21:10:33.015174Z
 901663705a0693aa9e674dad69ee66d6
 2011-08-03T15:55:14.275067Z
 12206
@@ -1726,40 +1726,6 @@ has-props
 
 6108
 
-ordering.html
-file
-
-
-
-
-2011-07-19T21:35:15.249238Z
-5e4424689debf9ad4556194f6f712042
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10259
-
 vector-features-with-text.html
 file
 
@@ -1793,6 +1759,40 @@ has-props
 
 
 5566
+
+ordering.html
+file
+
+
+
+
+2011-07-19T21:35:15.249238Z
+5e4424689debf9ad4556194f6f712042
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10259
 
 xyz-offset.html
 file
@@ -1964,40 +1964,6 @@ marcjansen
 
 2246
 
-example.html
-file
-
-
-
-
-2011-07-19T21:35:15.259238Z
-4e0bb6b0c4788e7012f2b11a2beb2c56
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1148
-
 browser.js
 file
 
@@ -2031,6 +1997,40 @@ crschmidt
 
 
 7445
+
+example.html
+file
+
+
+
+
+2011-07-19T21:35:15.259238Z
+4e0bb6b0c4788e7012f2b11a2beb2c56
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1148
 
 accessible.html
 file
@@ -2066,40 +2066,6 @@ has-props
 
 5377
 
-outOfRangeMarkers.html
-file
-
-
-
-
-2011-07-19T21:35:15.259238Z
-77f63eabf6cf8399256246b0dc1425c5
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2781
-
 navigation-history.html
 file
 
@@ -2133,6 +2099,40 @@ marcjansen
 
 
 2031
+
+outOfRangeMarkers.html
+file
+
+
+
+
+2011-07-19T21:35:15.259238Z
+77f63eabf6cf8399256246b0dc1425c5
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2781
 
 mousewheel-interval.html
 file
@@ -4455,40 +4455,6 @@ marcjansen
 
 4454
 
-arcgiscache_ags.html
-file
-
-
-
-
-2011-07-19T21:35:15.269238Z
-900a1c3beca14b2fe499f71841badcae
-2011-05-31T15:00:51.366949Z
-12032
-ahocevar
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-14329
-
 arcgiscache_direct.html
 file
 
@@ -4522,6 +4488,40 @@ ahocevar
 
 
 5657
+
+arcgiscache_ags.html
+file
+
+
+
+
+2011-07-19T21:35:15.269238Z
+900a1c3beca14b2fe499f71841badcae
+2011-05-31T15:00:51.366949Z
+12032
+ahocevar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14329
 
 mobile-base.js
 file
@@ -4557,40 +4557,6 @@ erilem
 
 7705
 
-gml-layer.html
-file
-
-
-
-
-2011-07-19T21:35:15.269238Z
-3f6f09abba014e60bac2da16515f0299
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1425
-
 teleportation.html
 file
 
@@ -4624,6 +4590,40 @@ has-props
 
 
 2313
+
+gml-layer.html
+file
+
+
+
+
+2011-07-19T21:35:15.269238Z
+3f6f09abba014e60bac2da16515f0299
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1425
 
 image-layer.html
 file
@@ -4693,40 +4693,6 @@ marcjansen
 
 1241
 
-draw-undo-redo.js
-file
-
-
-
-
-2011-07-19T21:35:15.269238Z
-e25e8d326728c8a70b876d3e8a67f0ce
-2011-06-17T21:10:15.741857Z
-12104
-tschaub
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1136
-
 panel.html
 file
 
@@ -4760,6 +4726,40 @@ has-props
 
 
 4049
+
+draw-undo-redo.js
+file
+
+
+
+
+2011-07-19T21:35:15.269238Z
+e25e8d326728c8a70b876d3e8a67f0ce
+2011-06-17T21:10:15.741857Z
+12104
+tschaub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1136
 
 controls.html
 file
@@ -4795,40 +4795,6 @@ has-props
 
 2999
 
-kamap.txt
-file
-
-
-
-
-2011-07-19T21:35:15.269238Z
-448b20fbfac60a0c3959d4a9d5142c9c
-2006-09-09T15:46:17.466775Z
-1424
-crschmidt
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-21637
-
 mobile-navigation.html
 file
 
@@ -4863,8 +4829,39 @@ marcjansen
 
 2047
 
-img
-dir
+kamap.txt
+file
+
+
+
+
+2011-07-19T21:35:15.269238Z
+448b20fbfac60a0c3959d4a9d5142c9c
+2006-09-09T15:46:17.466775Z
+1424
+crschmidt
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21637
 
 regular-polygons.html
 file
@@ -4899,6 +4896,9 @@ has-props
 
 
 6766
+
+img
+dir
 
 mobile-navigation.js
 file
@@ -4940,7 +4940,7 @@ file
 
 
 
-2011-08-09T19:44:05.605219Z
+2011-08-11T21:10:33.015174Z
 85b9f903a92051dd95c8997e07e51c98
 2011-08-03T15:55:14.275067Z
 12206
@@ -5070,40 +5070,6 @@ has-props
 
 2793
 
-strategy-bbox.html
-file
-
-
-
-
-2011-07-19T21:35:15.269238Z
-da126c0770281ac48342cdb279b45685
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3082
-
 tile-origin.js
 file
 
@@ -5137,6 +5103,40 @@ tschaub
 
 
 488
+
+strategy-bbox.html
+file
+
+
+
+
+2011-07-19T21:35:15.269238Z
+da126c0770281ac48342cdb279b45685
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3082
 
 graphic-name.html
 file
@@ -5206,40 +5206,6 @@ marcjansen
 
 2803
 
-example-list.html
-file
-
-
-
-
-2011-07-19T21:35:15.269238Z
-72e203a4e54aa60ffa0b63382ff0235b
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-11263
-
 overviewmap.html
 file
 
@@ -5273,6 +5239,40 @@ has-props
 
 
 4528
+
+example-list.html
+file
+
+
+
+
+2011-07-19T21:35:15.269238Z
+72e203a4e54aa60ffa0b63382ff0235b
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11263
 
 mm.html
 file
@@ -5410,40 +5410,6 @@ ahocevar
 
 19291
 
-point-grid.js
-file
-
-
-
-
-2011-07-19T21:35:15.279238Z
-b0ab2bfeabf9dad5078a186b442cce32
-2011-06-17T18:18:40.246875Z
-12099
-tschaub
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-869
-
 style.css
 file
 
@@ -5477,6 +5443,40 @@ tschaub
 
 
 2971
+
+point-grid.js
+file
+
+
+
+
+2011-07-19T21:35:15.279238Z
+b0ab2bfeabf9dad5078a186b442cce32
+2011-06-17T18:18:40.246875Z
+12099
+tschaub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+869
 
 layerswitcher.html
 file
@@ -5512,40 +5512,6 @@ has-props
 
 2454
 
-mouse-position.html
-file
-
-
-
-
-2011-07-19T21:35:15.279238Z
-498fe6337ffcb6e022f74bca1b4dfed3
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1821
-
 projected-map.html
 file
 
@@ -5579,6 +5545,40 @@ has-props
 
 
 2910
+
+mouse-position.html
+file
+
+
+
+
+2011-07-19T21:35:15.279238Z
+498fe6337ffcb6e022f74bca1b4dfed3
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1821
 
 filter-strategy.js
 file
@@ -5784,40 +5784,6 @@ has-props
 
 2218
 
-yahoo.html
-file
-
-
-
-
-2011-07-19T21:35:15.279238Z
-e9f6834aea748620a686498db825e333
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1832
-
 mobile.js
 file
 
@@ -5852,51 +5818,17 @@ erilem
 
 1058
 
-bing-tiles-restrictedzoom.js
+yahoo.html
 file
 
 
 
 
 2011-07-19T21:35:15.279238Z
-ccb809a7272206f993827c773f85f762
-2011-06-18T19:27:27.160285Z
-12107
-ahocevar
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1072
-
-modify-feature.html
-file
-
-
-
-
-2011-07-19T21:35:15.279238Z
-11b77791f8859c2c224a9707c7a77b7d
-2011-07-04T20:37:54.336179Z
-12152
-ahocevar
+e9f6834aea748620a686498db825e333
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
 has-props
 
 
@@ -5918,7 +5850,7 @@ has-props
 
 
 
-8211
+1832
 
 styles-rotation.html
 file
@@ -5954,6 +5886,74 @@ has-props
 
 3381
 
+modify-feature.html
+file
+
+
+
+
+2011-07-19T21:35:15.279238Z
+11b77791f8859c2c224a9707c7a77b7d
+2011-07-04T20:37:54.336179Z
+12152
+ahocevar
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8211
+
+bing-tiles-restrictedzoom.js
+file
+
+
+
+
+2011-07-19T21:35:15.279238Z
+ccb809a7272206f993827c773f85f762
+2011-06-18T19:27:27.160285Z
+12107
+ahocevar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1072
+
 editing-methods.html
 file
 
@@ -5987,40 +5987,6 @@ tschaub
 
 
 3103
-
-doubleSetCenter.html
-file
-
-
-
-
-2011-07-19T21:35:15.279238Z
-90f0cd687968d9944eb49bdb7389ca17
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1375
 
 styles-unique.html
 file
@@ -6056,17 +6022,18 @@ has-props
 
 4319
 
-snap-split.html
+doubleSetCenter.html
 file
 
 
 
 
 2011-07-19T21:35:15.279238Z
-316e27396a761b626941e179c52e707d
+90f0cd687968d9944eb49bdb7389ca17
 2011-06-14T06:46:13.827660Z
 12082
 marcjansen
+has-props
 
 
 
@@ -6087,8 +6054,7 @@ marcjansen
 
 
 
-
-10970
+1375
 
 wmst.html
 file
@@ -6123,6 +6089,40 @@ has-props
 
 
 3011
+
+snap-split.html
+file
+
+
+
+
+2011-07-19T21:35:15.279238Z
+316e27396a761b626941e179c52e707d
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10970
 
 osm
 dir
@@ -6229,40 +6229,6 @@ marcjansen
 
 8985
 
-donut.js
-file
-
-
-
-
-2011-07-19T21:35:15.279238Z
-53086d23647a5ddce24297db569b2ace
-2011-03-31T07:01:35.619397Z
-11822
-fredj
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1249
-
 ve-novibrate.html
 file
 
@@ -6296,6 +6262,40 @@ marcjansen
 
 
 2357
+
+donut.js
+file
+
+
+
+
+2011-07-19T21:35:15.279238Z
+53086d23647a5ddce24297db569b2ace
+2011-03-31T07:01:35.619397Z
+11822
+fredj
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1249
 
 graphic-name.js
 file
@@ -6467,40 +6467,6 @@ marcjansen
 
 6086
 
-editingtoolbar-outside.html
-file
-
-
-
-
-2011-07-19T21:35:15.279238Z
-8460b1400985066ddf6390b605bcda8d
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1992
-
 pan-zoom-panels.html
 file
 
@@ -6534,6 +6500,40 @@ marcjansen
 
 
 3054
+
+editingtoolbar-outside.html
+file
+
+
+
+
+2011-07-19T21:35:15.279238Z
+8460b1400985066ddf6390b605bcda8d
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1992
 
 filter-strategy.html
 file
@@ -6569,40 +6569,6 @@ marcjansen
 
 2435
 
-google-ng.js
-file
-
-
-
-
-2011-07-19T21:35:15.279238Z
-599fb6974677c3a6bfe837b53679a1b4
-2011-05-23T21:42:09.733395Z
-12000
-ahocevar
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-813
-
 wmc.html
 file
 
@@ -6637,17 +6603,17 @@ has-props
 
 5421
 
-transition.html
+google-ng.js
 file
 
 
 
 
 2011-07-19T21:35:15.279238Z
-5e3623a81ebad205c09881c1c69d6668
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
+599fb6974677c3a6bfe837b53679a1b4
+2011-05-23T21:42:09.733395Z
+12000
+ahocevar
 
 
 
@@ -6669,41 +6635,7 @@ marcjansen
 
 
 
-3011
-
-wfs-filter.js
-file
-
-
-
-
-2011-07-19T21:35:15.279238Z
-1af930f2a661b3fe1b4d863b970e2f4d
-2010-08-07T00:06:11.964638Z
-10605
-tschaub
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1685
+813
 
 wmts.html
 file
@@ -6739,6 +6671,74 @@ marcjansen
 
 1546
 
+wfs-filter.js
+file
+
+
+
+
+2011-07-19T21:35:15.279238Z
+1af930f2a661b3fe1b4d863b970e2f4d
+2010-08-07T00:06:11.964638Z
+10605
+tschaub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1685
+
+transition.html
+file
+
+
+
+
+2011-07-19T21:35:15.279238Z
+5e3623a81ebad205c09881c1c69d6668
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3011
+
 mapguide.html
 file
 
@@ -6772,40 +6772,6 @@ marcjansen
 
 
 5869
-
-kml-layer.html
-file
-
-
-
-
-2011-07-19T21:35:15.279238Z
-ea1a60fb743d597ffb93e78c0b347a67
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1294
 
 multitouch.html
 file
@@ -6841,6 +6807,40 @@ ahocevar
 
 906
 
+kml-layer.html
+file
+
+
+
+
+2011-07-19T21:35:15.279238Z
+ea1a60fb743d597ffb93e78c0b347a67
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1294
+
 kml-pointtrack.html
 file
 
@@ -6874,40 +6874,6 @@ marcjansen
 
 
 1749
-
-mobile-drawing.html
-file
-
-
-
-
-2011-07-19T21:35:15.279238Z
-f139e4191a803a99270b7985c922a044
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2934
 
 wfs-reprojection.html
 file
@@ -6943,6 +6909,40 @@ marcjansen
 
 2000
 
+mobile-drawing.html
+file
+
+
+
+
+2011-07-19T21:35:15.279238Z
+f139e4191a803a99270b7985c922a044
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2934
+
 late-render.html
 file
 
@@ -6976,108 +6976,6 @@ has-props
 
 
 1726
-
-markers.html
-file
-
-
-
-
-2011-07-19T21:35:15.279238Z
-2a9627c87603868430402ead2044ee29
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2573
-
-fractional-zoom.html
-file
-
-
-
-
-2011-07-19T21:35:15.279238Z
-b77af8640ab405e793c7aa662fd058ba
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2361
-
-sos.html
-file
-
-
-
-
-2011-07-19T21:35:15.279238Z
-9447a3a48a0b83d06217bd637038bce4
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8942
 
 wfs-protocol-transactions.html
 file
@@ -7113,17 +7011,17 @@ marcjansen
 
 4092
 
-google-v3-alloverlays.js
+sos.html
 file
 
 
 
 
 2011-07-19T21:35:15.279238Z
-37d4671c952921291bf3728ec0060c79
-2010-07-29T07:23:02.579048Z
-10550
-ahocevar
+9447a3a48a0b83d06217bd637038bce4
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
 
 
 
@@ -7145,7 +7043,75 @@ ahocevar
 
 
 
-1200
+8942
+
+fractional-zoom.html
+file
+
+
+
+
+2011-07-19T21:35:15.279238Z
+b77af8640ab405e793c7aa662fd058ba
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2361
+
+markers.html
+file
+
+
+
+
+2011-07-19T21:35:15.279238Z
+2a9627c87603868430402ead2044ee29
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2573
 
 mvs.html
 file
@@ -7180,6 +7146,40 @@ has-props
 
 
 4647
+
+google-v3-alloverlays.js
+file
+
+
+
+
+2011-07-19T21:35:15.279238Z
+37d4671c952921291bf3728ec0060c79
+2010-07-29T07:23:02.579048Z
+10550
+ahocevar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1200
 
 wms.html
 file
@@ -7351,40 +7351,6 @@ has-props
 
 4292
 
-mobile-jq.html
-file
-
-
-
-
-2011-07-19T21:35:15.289238Z
-45ca98f6044e1279f728e898203523cf
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3052
-
 snapping.html
 file
 
@@ -7418,6 +7384,40 @@ marcjansen
 
 
 13453
+
+mobile-jq.html
+file
+
+
+
+
+2011-07-19T21:35:15.289238Z
+45ca98f6044e1279f728e898203523cf
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3052
 
 kml
 dir
@@ -7694,17 +7694,17 @@ tschaub
 
 1412
 
-draw-undo-redo.html
+wfs-snap-split.html
 file
 
 
 
 
 2011-07-19T21:35:15.289238Z
-d5a9b8907e4eb533d56672852ab791e9
-2011-06-17T18:59:16.844978Z
-12103
-tschaub
+632dba878e5c4b3751c9ebaa16150e3a
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
 
 
 
@@ -7726,7 +7726,7 @@ tschaub
 
 
 
-1703
+11340
 
 strategy-cluster-extended.js
 file
@@ -7762,17 +7762,17 @@ erilem
 
 8041
 
-wfs-snap-split.html
+draw-undo-redo.html
 file
 
 
 
 
 2011-07-19T21:35:15.289238Z
-632dba878e5c4b3751c9ebaa16150e3a
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
+d5a9b8907e4eb533d56672852ab791e9
+2011-06-17T18:59:16.844978Z
+12103
+tschaub
 
 
 
@@ -7794,7 +7794,7 @@ marcjansen
 
 
 
-11340
+1703
 
 popupMatrix.html
 file
@@ -7898,40 +7898,6 @@ tschaub
 
 409
 
-google-v3-alloverlays.html
-file
-
-
-
-
-2011-07-19T21:35:15.289238Z
-4185067a78e1d69b7f646c292ca93c51
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1588
-
 point-track-markers.html
 file
 
@@ -7966,18 +7932,17 @@ has-props
 
 3476
 
-georss.xml
+google-v3-alloverlays.html
 file
 
 
 
 
 2011-07-19T21:35:15.289238Z
-ebff1c38c2c04df24c5042a01df3012c
-2007-12-08T14:21:53.115500Z
-5362
-crschmidt
-has-props
+4185067a78e1d69b7f646c292ca93c51
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
 
 
 
@@ -7998,7 +7963,8 @@ has-props
 
 
 
-27114
+
+1588
 
 stylemap.html
 file
@@ -8033,6 +7999,40 @@ marcjansen
 
 
 4168
+
+georss.xml
+file
+
+
+
+
+2011-07-19T21:35:15.289238Z
+ebff1c38c2c04df24c5042a01df3012c
+2007-12-08T14:21:53.115500Z
+5362
+crschmidt
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+27114
 
 web-mercator.js
 file
@@ -8173,17 +8173,18 @@ crschmidt
 data
 dir
 
-getfeatureinfo-popup.html
+wms-untiled.html
 file
 
 
 
 
 2011-07-19T21:35:15.289238Z
-95f0e0a20acb920920be01fa722876eb
+f9be7e483e54e39e17c33170a692265b
 2011-06-14T06:46:13.827660Z
 12082
 marcjansen
+has-props
 
 
 
@@ -8204,8 +8205,7 @@ marcjansen
 
 
 
-
-3283
+1686
 
 osm-google.html
 file
@@ -8241,18 +8241,17 @@ marcjansen
 
 1460
 
-wms-untiled.html
+getfeatureinfo-popup.html
 file
 
 
 
 
 2011-07-19T21:35:15.289238Z
-f9be7e483e54e39e17c33170a692265b
+95f0e0a20acb920920be01fa722876eb
 2011-06-14T06:46:13.827660Z
 12082
 marcjansen
-has-props
 
 
 
@@ -8273,7 +8272,8 @@ has-props
 
 
 
-1686
+
+3283
 
 google-v3.js
 file
@@ -8309,17 +8309,17 @@ ahocevar
 
 1212
 
-label-scale.js
+sld-parser.html
 file
 
 
 
 
 2011-07-19T21:35:15.289238Z
-449d1dc4270d864c6b24c32d43f5651e
-2011-07-12T16:48:39.761783Z
-12167
-tschaub
+086aa697112a0192df8620d028308772
+2011-06-14T06:46:13.827660Z
+12082
+marcjansen
 
 
 
@@ -8341,7 +8341,7 @@ tschaub
 
 
 
-1903
+2710
 
 google.html
 file
@@ -8377,17 +8377,17 @@ has-props
 
 2599
 
-sld-parser.html
+label-scale.js
 file
 
 
 
 
 2011-07-19T21:35:15.289238Z
-086aa697112a0192df8620d028308772
-2011-06-14T06:46:13.827660Z
-12082
-marcjansen
+449d1dc4270d864c6b24c32d43f5651e
+2011-07-12T16:48:39.761783Z
+12167
+tschaub
 
 
 
@@ -8409,41 +8409,7 @@ marcjansen
 
 
 
-2710
-
-canvas-inspector.html
-file
-
-
-
-
-2011-07-19T21:35:15.289238Z
-cfe9965899022e87107b5132c92d7271
-2011-05-31T15:00:51.366949Z
-12032
-ahocevar
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1837
+1903
 
 navtoolbar-outsidemap.html
 file
@@ -8478,6 +8444,40 @@ has-props
 
 
 1959
+
+canvas-inspector.html
+file
+
+
+
+
+2011-07-19T21:35:15.289238Z
+cfe9965899022e87107b5132c92d7271
+2011-05-31T15:00:51.366949Z
+12032
+ahocevar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1837
 
 multiserver.html
 file

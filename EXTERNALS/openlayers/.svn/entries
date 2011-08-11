@@ -38,9 +38,6 @@ dir
 build
 dir
 
-tools
-dir
-
 license.txt
 file
 
@@ -75,10 +72,13 @@ tschaub
 
 1750
 
-tests
+tools
 dir
 
 theme
+dir
+
+tests
 dir
 
 doc
@@ -158,9 +158,6 @@ crschmidt
 
 102
 
-examples
-dir
-
 release-license.txt
 file
 
@@ -194,4 +191,7 @@ crschmidt
 
 
 103
+
+examples
+dir
 

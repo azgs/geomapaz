@@ -43,9 +43,10 @@ function addMap() {
 		format: 'image/png',
 		transparent: 'true'
 	},
-	{	isBaseLayer: false,
-		singleTile: true,
-		maxResolution: 17034.82829271617
+	{	
+		//singleTile: true,
+		//maxResolution: 17034.82829271617,
+		isBaseLayer: false
 	}
 	);
 	
@@ -57,9 +58,10 @@ function addMap() {
 		format: 'image/png',
 		transparent: 'true'
 	},
-	{	isBaseLayer: false,
-		singleTile: true
-		}
+	{	
+		//singleTile: true,
+		isBaseLayer: false
+	}
 	);
 
 	//Create a vector layer to highlight selected feature//////////////////////////

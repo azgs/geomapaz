@@ -774,40 +774,6 @@ pgiraud
 
 9252
 
-WMTSGetFeatureInfo.html
-file
-
-
-
-
-2011-07-19T21:35:14.069238Z
-b573dfee185a6889c03869c26e6a9653
-2011-02-21T10:10:25.916566Z
-11162
-pgiraud
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-11352
-
 SLDSelect.html
 file
 
@@ -841,6 +807,40 @@ bartvde
 
 
 13071
+
+WMTSGetFeatureInfo.html
+file
+
+
+
+
+2011-07-19T21:35:14.069238Z
+b573dfee185a6889c03869c26e6a9653
+2011-02-21T10:10:25.916566Z
+11162
+pgiraud
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11352
 
 TransformFeature.html
 file
@@ -876,40 +876,6 @@ ahocevar
 
 3521
 
-GetFeature.html
-file
-
-
-
-
-2011-07-19T21:35:14.069238Z
-199c9249759797c47e53abcc2e856715
-2011-02-21T10:10:25.916566Z
-11162
-pgiraud
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7766
-
 Split.html
 file
 
@@ -943,6 +909,40 @@ erilem
 
 
 12027
+
+GetFeature.html
+file
+
+
+
+
+2011-07-19T21:35:14.069238Z
+199c9249759797c47e53abcc2e856715
+2011-02-21T10:10:25.916566Z
+11162
+pgiraud
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7766
 
 PanPanel.html
 file
@@ -1012,40 +1012,6 @@ has-props
 
 13109
 
-TouchNavigation.html
-file
-
-
-
-
-2011-07-19T21:35:14.079238Z
-651d12cd132f64fa2494fdb42eeb4a96
-2011-03-11T01:53:26.290760Z
-11695
-tschaub
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4880
-
 Geolocate.html
 file
 
@@ -1079,6 +1045,40 @@ fredj
 
 
 5161
+
+TouchNavigation.html
+file
+
+
+
+
+2011-07-19T21:35:14.079238Z
+651d12cd132f64fa2494fdb42eeb4a96
+2011-03-11T01:53:26.290760Z
+11695
+tschaub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4880
 
 ModifyFeature.html
 file
