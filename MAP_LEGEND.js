@@ -34,44 +34,6 @@ function addMap() {
 	gSatLayer = v3Layers.satellite;
 	gHybLayer = v3Layers.hybrid;
 	gPhyLayer = v3Layers.physical;
-	
-	/*
-	gStrLayer = new OpenLayers.Layer.Google(
-        "Google Streets",
-        {
-        	type: G_NORMAL_MAP,
-        	sphericalMercator: true,
-        	projection: map.projection
-        }
-    );
-    
-	gSatLayer = new OpenLayers.Layer.Google(
-        "Google Satellite",
-        {
-        	type: G_SATELLITE_MAP, 
-        	sphericalMercator: true,
-        	projection: map.projection
-        }
-    );
-    
-	gHybLayer = new OpenLayers.Layer.Google(
-        "Google Hybrid",
-        {
-        	type: G_HYBRID_MAP, 
-        	sphericalMercator: true,
-        	projection: map.projection
-        }
-    );
-
-	gPhyLayer = new OpenLayers.Layer.Google(
-        "Google Physical",
-        {
-        	type: G_PHYSICAL_MAP, 
-        	sphericalMercator: true,
-        	projection: map.projection
-        }
-    );
-    */
 
 	//Create wms polyline base layer/////////////////////////////////////////////////////////
 	wmsPolylineLayer = new OpenLayers.Layer.WMS(
