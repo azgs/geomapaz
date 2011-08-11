@@ -29,7 +29,20 @@ var map, wmsPolylineLayer, wmsPolygonLayer, selectLayer;
 				addLineLegend();
 				addLogo();
 //================================================================================================================
-//Define the overall layout			
+//Define the overall layout
+			// Create the top toolbar items
+			addItemLayerSwitcher('do-base-layers');
+			addItemZoomBox('do-zoom-box');
+			addItemExtFull('do-full-extent');
+			addItemPan('do-pan');
+			addItemIdentify('do-identify');
+			addItemExtSwitcher('do-previous-extent', 'do-next-extent');
+			addItemHelp('do-help');
+			
+			// Create bottom toolbar items
+			addItemOpacitySlider();
+			addItemMousePosition();
+			
 			viewPort = new Ext.Viewport({
 					layout : 'border',
 					renderTo: 'MAP_DIV',
@@ -67,68 +80,37 @@ var map, wmsPolylineLayer, wmsPolygonLayer, selectLayer;
 							itemLogo
 							//zoomMinus
 						],
-						tbar: {
-							xtype: 'toolbar'
+						tbar: { 
+							xtype: 'toolbar',
+							items: [itemLayerSwitcher,
+							        '-',
+							        itemZoomBox,
+							        itemExtFull,
+							        '-',
+							        itemPan,
+							        itemIdentify,
+							        '->',
+							        itemExtPre,
+							        itemExtNxt,
+							        '-',
+							        itemHelp
+							        ]
 						},
-						bbar: {
-							xtype: 'toolbar'
-						}
+						bbar: { 
+							xtype: 'toolbar',
+							items: [
+							        ' ',
+							        'Map Unit Transparency',
+							        ' ',
+							        itemOpacitySlider,
+							        ' ',
+							        itemOpacityTips,
+							        '->',
+							        itemMousePosition]
+							}
 					}
 					]
 				});
-//================================================================================================================
-//Add layer switcher item///////////////////////////
-addItemLayerSwitcher('do-base-layers');
-Ext.getCmp('MAP_PANEL').topToolbar.add(itemLayerSwitcher);
-
-Ext.getCmp('MAP_PANEL').topToolbar.add('-');	
-//Add zoom in item//////////////////////////////////
-addItemZoomIn('do-zoom-in');
-//Ext.getCmp('MAP_PANEL').topToolbar.add(itemZoomIn);	
-//Add zoom out item/////////////////////////////////
-addItemZoomOut('do-zoom-out');
-//Ext.getCmp('MAP_PANEL').topToolbar.add(itemZoomOut);
-//Add zoom out item/////////////////////////////////
-addItemZoomBox('do-zoom-box');
-Ext.getCmp('MAP_PANEL').topToolbar.add(itemZoomBox);
-//Add full extent item//////////////////////////////				
-addItemExtFull('do-full-extent');
-Ext.getCmp('MAP_PANEL').topToolbar.add(itemExtFull);
-
-Ext.getCmp('MAP_PANEL').topToolbar.add('-');
-//Add pan item/////////////////////////////////////
-addItemPan('do-pan');
-Ext.getCmp('MAP_PANEL').topToolbar.add(itemPan);	
-//Add identify item////////////////////////////////
-addItemIdentify('do-identify');
-Ext.getCmp('MAP_PANEL').topToolbar.add(itemIdentify);
-
-Ext.getCmp('MAP_PANEL').topToolbar.add('->');
-//Add extent switcher item////////////////////////
-addItemExtSwitcher('do-previous-extent', 'do-next-extent');
-Ext.getCmp('MAP_PANEL').topToolbar.add(itemExtPre);
-Ext.getCmp('MAP_PANEL').topToolbar.add(itemExtNxt);
-
-Ext.getCmp('MAP_PANEL').topToolbar.add('-');
-//Add help item////////////////////////
-addItemHelp('do-help');
-Ext.getCmp('MAP_PANEL').topToolbar.add(itemHelp);
-
-//================================================================================================================
-//Add opacity slider
-Ext.getCmp('MAP_PANEL').bottomToolbar.add(' ');
-Ext.getCmp('MAP_PANEL').bottomToolbar.add('Map Unit Transparency: ');
-Ext.getCmp('MAP_PANEL').bottomToolbar.add(' ');
-addItemOpacitySlider();
-Ext.getCmp('MAP_PANEL').bottomToolbar.add(itemOpacitySlider);
-Ext.getCmp('MAP_PANEL').bottomToolbar.add(' ');
-Ext.getCmp('MAP_PANEL').bottomToolbar.add(itemOpacityTips);
-//================================================================================================================
-//Add mouse position
-Ext.getCmp('MAP_PANEL').bottomToolbar.add('->');
-addItemMousePosition();
-Ext.getCmp('MAP_PANEL').bottomToolbar.add(itemMousePosition);
-
 addLogoFunction();		
 			}
 //================================================================================================================					})
