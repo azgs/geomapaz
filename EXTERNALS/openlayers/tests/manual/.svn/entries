@@ -1,7 +1,7 @@
 10
 
 dir
-12227
+12236
 http://svn.openlayers.org/trunk/openlayers/tests/manual
 http://svn.openlayers.org
 
@@ -675,17 +675,17 @@ ahocevar
 
 2097
 
-rendered-dimensions.html
+box-strict.html
 file
 
 
 
 
 2011-07-19T21:35:13.749238Z
-0d3d190d364526213986409088511834
-2009-05-15T15:36:21.065452Z
-9384
-crschmidt
+76304ed57165db6b260d921c8766faa4
+2011-03-29T13:44:04.846234Z
+11749
+ahocevar
 
 
 
@@ -707,7 +707,7 @@ crschmidt
 
 
 
-1645
+1737
 
 ajax.txt
 file
@@ -743,84 +743,16 @@ tschaub
 
 18
 
-box-strict.html
+rendered-dimensions.html
 file
 
 
 
 
 2011-07-19T21:35:13.749238Z
-76304ed57165db6b260d921c8766faa4
-2011-03-29T13:44:04.846234Z
-11749
-ahocevar
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1737
-
-alloverlays-mixed.html
-file
-
-
-
-
-2011-07-19T21:35:13.759238Z
-46d66e17f8ede23babc5f0c7b28d17d2
-2011-06-18T19:11:54.756330Z
-12105
-ahocevar
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2430
-
-big-georss.html
-file
-
-
-
-
-2011-07-19T21:35:13.759238Z
-78f467cf1e81dee860eee1632cd122e4
-2008-08-26T23:24:44.877594Z
-7871
+0d3d190d364526213986409088511834
+2009-05-15T15:36:21.065452Z
+9384
 crschmidt
 
 
@@ -843,7 +775,7 @@ crschmidt
 
 
 
-1060
+1645
 
 google-v3-resize.html
 file
@@ -879,16 +811,16 @@ tschaub
 
 2040
 
-geojson-geomcoll-reprojection.html
+big-georss.html
 file
 
 
 
 
 2011-07-19T21:35:13.759238Z
-6d8a5e08ddb550c8f668011a5c99a060
-2009-04-03T20:26:35.092583Z
-9181
+78f467cf1e81dee860eee1632cd122e4
+2008-08-26T23:24:44.877594Z
+7871
 crschmidt
 
 
@@ -911,7 +843,41 @@ crschmidt
 
 
 
-3676
+1060
+
+alloverlays-mixed.html
+file
+
+
+
+
+2011-07-19T21:35:13.759238Z
+46d66e17f8ede23babc5f0c7b28d17d2
+2011-06-18T19:11:54.756330Z
+12105
+ahocevar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2430
 
 google-panning.html
 file
@@ -946,6 +912,40 @@ has-props
 
 
 4524
+
+geojson-geomcoll-reprojection.html
+file
+
+
+
+
+2011-07-19T21:35:13.759238Z
+6d8a5e08ddb550c8f668011a5c99a060
+2009-04-03T20:26:35.092583Z
+9181
+crschmidt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3676
 
 arcims-2117.html
 file

@@ -350,11 +350,6 @@ OpenLayers.Layer = OpenLayers.Class({
             this.div.style.width = "100%";
             this.div.style.height = "100%";
             this.div.dir = "ltr";
-            if (this.opacity != null && this.opacity < 1) {
-                OpenLayers.Util.modifyDOMElement(
-                    this.div, null, null, null, null, null, null, this.opacity
-                );
-            }
 
             this.events = new OpenLayers.Events(this, this.div, 
                                                 this.EVENT_TYPES);
@@ -1275,8 +1270,11 @@ OpenLayers.Layer = OpenLayers.Class({
     setOpacity: function(opacity) {
         if (opacity != this.opacity) {
             this.opacity = opacity;
-            OpenLayers.Util.modifyDOMElement(this.div, null, null, null, 
-                                             null, null, null, opacity);
+            for(var i=0, len=this.div.childNodes.length; i<len; ++i) {
+                var element = this.div.childNodes[i].firstChild;
+                OpenLayers.Util.modifyDOMElement(element, null, null, null, 
+                                                 null, null, null, opacity);
+            }
             if (this.map != null) {
                 this.map.events.triggerEvent("changelayer", {
                     layer: this,

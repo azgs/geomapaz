@@ -1,7 +1,7 @@
 10
 
 dir
-12227
+12236
 http://svn.openlayers.org/trunk/openlayers/tests/Format
 http://svn.openlayers.org
 
@@ -279,6 +279,40 @@ has-props
 Filter
 dir
 
+KML.html
+file
+
+
+
+
+2011-08-09T19:44:05.435219Z
+da5a3c3f0bc27514426941d2e87c59c7
+2011-08-08T13:51:56.583640Z
+12218
+ahocevar
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+52201
+
 OGCExceptionReport.html
 file
 
@@ -349,40 +383,6 @@ pgiraud
 
 
 638
-
-KML.html
-file
-
-
-
-
-2011-08-09T19:44:05.435219Z
-da5a3c3f0bc27514426941d2e87c59c7
-2011-08-08T13:51:56.583640Z
-12218
-ahocevar
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-52201
 
 Text.html
 file
@@ -523,40 +523,6 @@ bartvde
 XML
 dir
 
-WMSGetFeatureInfo.html
-file
-
-
-
-
-2011-07-19T21:35:13.969238Z
-dcf39e43eaffdc638160a1cf45d7f9a1
-2011-03-29T09:44:07.714239Z
-11741
-bartvde
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16382
-
 GPX.html
 file
 
@@ -590,6 +556,40 @@ pgiraud
 
 
 3339
+
+WMSGetFeatureInfo.html
+file
+
+
+
+
+2011-07-19T21:35:13.969238Z
+dcf39e43eaffdc638160a1cf45d7f9a1
+2011-03-29T09:44:07.714239Z
+11741
+bartvde
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16382
 
 GeoRSS.html
 file
@@ -727,10 +727,10 @@ has-props
 
 1697
 
-CSWGetRecords
+SOSCapabilities
 dir
 
-SOSCapabilities
+CSWGetRecords
 dir
 
 WMSCapabilities

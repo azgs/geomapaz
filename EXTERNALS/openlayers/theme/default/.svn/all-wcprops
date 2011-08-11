@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 46
-/!svn/ver/12070/trunk/openlayers/theme/default
+/!svn/ver/12231/trunk/openlayers/theme/default
 END
 google.css
 K 25
@@ -13,7 +13,7 @@ style.css
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/!svn/ver/12070/trunk/openlayers/theme/default/style.css
+/!svn/ver/12231/trunk/openlayers/theme/default/style.css
 END
 ie6-style.css
 K 25

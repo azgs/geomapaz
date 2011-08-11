@@ -1,7 +1,7 @@
 10
 
 dir
-12227
+12236
 http://svn.openlayers.org/trunk/openlayers/lib/OpenLayers/Format
 http://svn.openlayers.org
 
@@ -350,40 +350,6 @@ bartvde
 
 1342
 
-CQL.js
-file
-
-
-
-
-2011-07-19T21:35:14.549238Z
-6e6c7e9a3e3743ed883fb22172b6e552
-2011-01-28T23:15:10.475854Z
-11065
-tschaub
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16331
-
 GML.js
 file
 
@@ -418,17 +384,17 @@ has-props
 
 35546
 
-SOSGetObservation.js
+CQL.js
 file
 
 
 
 
 2011-07-19T21:35:14.549238Z
-d8d3fdf923011001e61b296dee48e0b2
-2011-03-07T14:13:32.492650Z
-11652
-fredj
+6e6c7e9a3e3743ed883fb22172b6e552
+2011-01-28T23:15:10.475854Z
+11065
+tschaub
 
 
 
@@ -450,7 +416,7 @@ fredj
 
 
 
-11304
+16331
 
 WMSCapabilities.js
 file
@@ -486,6 +452,40 @@ bartvde
 
 1511
 
+SOSGetObservation.js
+file
+
+
+
+
+2011-07-19T21:35:14.549238Z
+d8d3fdf923011001e61b296dee48e0b2
+2011-03-07T14:13:32.492650Z
+11652
+fredj
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11304
+
 SLD.js
 file
 
@@ -519,108 +519,6 @@ has-props
 
 
 2083
-
-WPSCapabilities.js
-file
-
-
-
-
-2011-07-19T21:35:14.549238Z
-7e07116f176842226787689053e5f170
-2011-07-05T09:42:34.179571Z
-12155
-bartvde
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1303
-
-WFST.js
-file
-
-
-
-
-2011-07-19T21:35:14.549238Z
-f2070c55682235120e7773843e4c5ee1
-2011-01-03T15:39:40.606461Z
-10995
-tschaub
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-993
-
-KML.js
-file
-
-
-
-
-2011-08-09T19:44:05.525219Z
-42bb0c042ac275749c00191c99ef7b61
-2011-08-08T13:51:56.583640Z
-12218
-ahocevar
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-52315
 
 OGCExceptionReport.js
 file
@@ -656,6 +554,108 @@ bartvde
 
 3424
 
+KML.js
+file
+
+
+
+
+2011-08-09T19:44:05.525219Z
+42bb0c042ac275749c00191c99ef7b61
+2011-08-08T13:51:56.583640Z
+12218
+ahocevar
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+52315
+
+WFST.js
+file
+
+
+
+
+2011-07-19T21:35:14.549238Z
+f2070c55682235120e7773843e4c5ee1
+2011-01-03T15:39:40.606461Z
+10995
+tschaub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+993
+
+WPSCapabilities.js
+file
+
+
+
+
+2011-07-19T21:35:14.549238Z
+7e07116f176842226787689053e5f170
+2011-07-05T09:42:34.179571Z
+12155
+bartvde
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1303
+
 Text.js
 file
 
@@ -690,9 +690,6 @@ has-props
 
 6666
 
-XML
-dir
-
 Filter.js
 file
 
@@ -726,6 +723,9 @@ bartvde
 
 
 1502
+
+XML
+dir
 
 ArcXML.js
 file

@@ -1,15 +1,15 @@
 10
 
 dir
-12227
+12236
 http://svn.openlayers.org/trunk/openlayers
 http://svn.openlayers.org
 
 
 
-2011-08-09T17:33:37.139213Z
-12227
-ahocevar
+2011-08-11T13:21:04.701947Z
+12236
+erilem
 has-props
 
 
@@ -36,6 +36,9 @@ doc_config
 dir
 
 build
+dir
+
+tools
 dir
 
 license.txt
@@ -72,13 +75,10 @@ tschaub
 
 1750
 
-tools
+tests
 dir
 
 theme
-dir
-
-tests
 dir
 
 doc
@@ -158,6 +158,9 @@ crschmidt
 
 102
 
+examples
+dir
+
 release-license.txt
 file
 
@@ -191,7 +194,4 @@ crschmidt
 
 
 103
-
-examples
-dir
 

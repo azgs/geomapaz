@@ -1,7 +1,7 @@
 10
 
 dir
-12227
+12236
 http://svn.openlayers.org/trunk/openlayers/tests/Control
 http://svn.openlayers.org
 
@@ -774,40 +774,6 @@ pgiraud
 
 9252
 
-SLDSelect.html
-file
-
-
-
-
-2011-07-19T21:35:14.069238Z
-d7b8b9d7db06f7dc2f3cee98664831fe
-2011-03-22T12:30:41.036995Z
-11720
-bartvde
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-13071
-
 WMTSGetFeatureInfo.html
 file
 
@@ -841,6 +807,40 @@ pgiraud
 
 
 11352
+
+SLDSelect.html
+file
+
+
+
+
+2011-07-19T21:35:14.069238Z
+d7b8b9d7db06f7dc2f3cee98664831fe
+2011-03-22T12:30:41.036995Z
+11720
+bartvde
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13071
 
 TransformFeature.html
 file
@@ -876,40 +876,6 @@ ahocevar
 
 3521
 
-Split.html
-file
-
-
-
-
-2011-07-19T21:35:14.069238Z
-d3c7d7c22bbfa338ad4135a1ed6b0ab3
-2011-02-24T09:00:49.511415Z
-11381
-erilem
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12027
-
 GetFeature.html
 file
 
@@ -943,6 +909,40 @@ has-props
 
 
 7766
+
+Split.html
+file
+
+
+
+
+2011-07-19T21:35:14.069238Z
+d3c7d7c22bbfa338ad4135a1ed6b0ab3
+2011-02-24T09:00:49.511415Z
+11381
+erilem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12027
 
 PanPanel.html
 file
@@ -1012,40 +1012,6 @@ has-props
 
 13109
 
-Geolocate.html
-file
-
-
-
-
-2011-07-19T21:35:14.079238Z
-07c79b1fc386ccd5f12f4e91adf9d2cf
-2011-02-25T14:33:55.344279Z
-11505
-fredj
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5161
-
 TouchNavigation.html
 file
 
@@ -1079,6 +1045,40 @@ tschaub
 
 
 4880
+
+Geolocate.html
+file
+
+
+
+
+2011-07-19T21:35:14.079238Z
+07c79b1fc386ccd5f12f4e91adf9d2cf
+2011-02-25T14:33:55.344279Z
+11505
+fredj
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5161
 
 ModifyFeature.html
 file

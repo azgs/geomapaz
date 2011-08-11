@@ -1,7 +1,7 @@
 10
 
 dir
-12227
+12236
 http://svn.openlayers.org/trunk/openlayers/tools
 http://svn.openlayers.org
 
@@ -400,40 +400,6 @@ has-props
 
 7471
 
-oldot.py
-file
-
-
-
-
-2011-07-19T21:35:13.529238Z
-779a061114f0c6250cae4458705be212
-2008-06-27T05:19:48.820467Z
-7458
-crschmidt
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1359
-
 minimize.py
 file
 
@@ -467,6 +433,40 @@ crschmidt
 
 
 2088
+
+oldot.py
+file
+
+
+
+
+2011-07-19T21:35:13.529238Z
+779a061114f0c6250cae4458705be212
+2008-06-27T05:19:48.820467Z
+7458
+crschmidt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1359
 
 README.txt
 file

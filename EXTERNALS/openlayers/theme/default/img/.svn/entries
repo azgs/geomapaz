@@ -1,7 +1,7 @@
 10
 
 dir
-12227
+12236
 http://svn.openlayers.org/trunk/openlayers/theme/default/img
 http://svn.openlayers.org
 
@@ -536,40 +536,6 @@ has-props
 
 1211
 
-pan-panel-NOALPHA.png
-file
-
-
-
-
-2011-07-19T21:35:14.209238Z
-89d2ff519a281fe4c885f329e42d9e69
-2011-02-25T09:28:33.052840Z
-11469
-crschmidt
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-564
-
 add_point_off.png
 file
 
@@ -603,6 +569,40 @@ has-props
 
 
 1614
+
+pan-panel-NOALPHA.png
+file
+
+
+
+
+2011-07-19T21:35:14.209238Z
+89d2ff519a281fe4c885f329e42d9e69
+2011-02-25T09:28:33.052840Z
+11469
+crschmidt
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+564
 
 draw_polygon_off.png
 file
@@ -638,14 +638,14 @@ has-props
 
 1544
 
-view_previous_off.png
+draw_polygon_on.png
 file
 
 
 
 
 2011-07-19T21:35:14.209238Z
-e43042f7941b865c04d0246039be2dd2
+a8cc98986b2e9006946b5d84f967570a
 2011-02-25T09:28:33.052840Z
 11469
 crschmidt
@@ -670,7 +670,7 @@ has-props
 
 
 
-1476
+1405
 
 remove_point_off.png
 file
@@ -706,14 +706,14 @@ has-props
 
 1612
 
-draw_polygon_on.png
+view_previous_off.png
 file
 
 
 
 
 2011-07-19T21:35:14.209238Z
-a8cc98986b2e9006946b5d84f967570a
+e43042f7941b865c04d0246039be2dd2
 2011-02-25T09:28:33.052840Z
 11469
 crschmidt
@@ -738,7 +738,7 @@ has-props
 
 
 
-1405
+1476
 
 zoom-panel-NOALPHA.png
 file
@@ -774,40 +774,6 @@ has-props
 
 1173
 
-view_previous_on.png
-file
-
-
-
-
-2011-07-19T21:35:14.219238Z
-6be7f9af15e3b18690616fed575d9b84
-2008-02-09T01:27:45.901492Z
-6157
-tschaub
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1592
-
 remove_point_on.png
 file
 
@@ -841,6 +807,40 @@ has-props
 
 
 1461
+
+view_previous_on.png
+file
+
+
+
+
+2011-07-19T21:35:14.219238Z
+6be7f9af15e3b18690616fed575d9b84
+2008-02-09T01:27:45.901492Z
+6157
+tschaub
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1592
 
 editing_tool_bar.png
 file

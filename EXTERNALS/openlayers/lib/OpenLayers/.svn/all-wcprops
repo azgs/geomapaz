@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 47
-/!svn/ver/12227/trunk/openlayers/lib/OpenLayers
+/!svn/ver/12236/trunk/openlayers/lib/OpenLayers
 END
 Map.js
 K 25
 svn:wc:ra_dav:version-url
 V 54
-/!svn/ver/12158/trunk/openlayers/lib/OpenLayers/Map.js
+/!svn/ver/12236/trunk/openlayers/lib/OpenLayers/Map.js
 END
 Handler.js
 K 25
@@ -105,17 +105,17 @@ svn:wc:ra_dav:version-url
 V 55
 /!svn/ver/11007/trunk/openlayers/lib/OpenLayers/Rule.js
 END
+Layer.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/12231/trunk/openlayers/lib/OpenLayers/Layer.js
+END
 Projection.js
 K 25
 svn:wc:ra_dav:version-url
 V 61
 /!svn/ver/11576/trunk/openlayers/lib/OpenLayers/Projection.js
-END
-Layer.js
-K 25
-svn:wc:ra_dav:version-url
-V 56
-/!svn/ver/12227/trunk/openlayers/lib/OpenLayers/Layer.js
 END
 Util.js
 K 25
@@ -135,11 +135,11 @@ svn:wc:ra_dav:version-url
 V 56
 /!svn/ver/11007/trunk/openlayers/lib/OpenLayers/Tween.js
 END
-Request.js
+Icon.js
 K 25
 svn:wc:ra_dav:version-url
-V 58
-/!svn/ver/11711/trunk/openlayers/lib/OpenLayers/Request.js
+V 55
+/!svn/ver/11007/trunk/openlayers/lib/OpenLayers/Icon.js
 END
 Format.js
 K 25
@@ -147,23 +147,23 @@ svn:wc:ra_dav:version-url
 V 57
 /!svn/ver/11007/trunk/openlayers/lib/OpenLayers/Format.js
 END
-Icon.js
+Request.js
 K 25
 svn:wc:ra_dav:version-url
-V 55
-/!svn/ver/11007/trunk/openlayers/lib/OpenLayers/Icon.js
-END
-Geometry.js
-K 25
-svn:wc:ra_dav:version-url
-V 59
-/!svn/ver/12095/trunk/openlayers/lib/OpenLayers/Geometry.js
+V 58
+/!svn/ver/11711/trunk/openlayers/lib/OpenLayers/Request.js
 END
 Feature.js
 K 25
 svn:wc:ra_dav:version-url
 V 58
 /!svn/ver/11790/trunk/openlayers/lib/OpenLayers/Feature.js
+END
+Geometry.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/12095/trunk/openlayers/lib/OpenLayers/Geometry.js
 END
 Style.js
 K 25
@@ -177,15 +177,15 @@ svn:wc:ra_dav:version-url
 V 59
 /!svn/ver/12080/trunk/openlayers/lib/OpenLayers/Protocol.js
 END
-Strategy.js
-K 25
-svn:wc:ra_dav:version-url
-V 59
-/!svn/ver/11007/trunk/openlayers/lib/OpenLayers/Strategy.js
-END
 Console.js
 K 25
 svn:wc:ra_dav:version-url
 V 58
 /!svn/ver/11576/trunk/openlayers/lib/OpenLayers/Console.js
+END
+Strategy.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/11007/trunk/openlayers/lib/OpenLayers/Strategy.js
 END

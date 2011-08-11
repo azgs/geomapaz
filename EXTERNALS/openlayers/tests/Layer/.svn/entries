@@ -1,15 +1,15 @@
 10
 
 dir
-12227
+12236
 http://svn.openlayers.org/trunk/openlayers/tests/Layer
 http://svn.openlayers.org
 
 
 
-2011-07-25T13:13:46.628249Z
-12187
-bartvde
+2011-08-11T11:51:57.160568Z
+12235
+erilem
 
 
 
@@ -304,10 +304,10 @@ file
 
 
 
-2011-07-25T21:05:35.109107Z
-58cae186351ed9c981c58e3c56a17f06
-2011-07-25T11:42:43.289673Z
-12185
+2011-08-11T21:25:28.775173Z
+f8b96bba30433a20bad97ea08a53f1e7
+2011-08-10T08:35:27.876478Z
+12231
 ahocevar
 
 
@@ -330,7 +330,7 @@ ahocevar
 
 
 
-13900
+15028
 
 Image.html
 file
@@ -406,10 +406,10 @@ file
 
 
 
-2011-07-19T21:35:13.729238Z
-59c734d0c397822a0b66d9a200740315
-2011-02-25T12:02:29.826999Z
-11482
+2011-08-11T21:25:28.785173Z
+c2f2d93e3887a48f8b07efa756616021
+2011-08-11T11:51:57.160568Z
+12235
 erilem
 has-props
 
@@ -432,7 +432,7 @@ has-props
 
 
 
-22131
+22057
 
 EventPane.html
 file
@@ -502,40 +502,6 @@ has-props
 
 9263
 
-XYZ.html
-file
-
-
-
-
-2011-07-19T21:35:13.729238Z
-bbe7eb3d5326fe178877de02c738476a
-2011-04-04T07:20:48.905410Z
-11864
-pgiraud
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9049
-
 WMTS.html
 file
 
@@ -569,6 +535,40 @@ pgiraud
 
 
 59135
+
+XYZ.html
+file
+
+
+
+
+2011-07-19T21:35:13.729238Z
+bbe7eb3d5326fe178877de02c738476a
+2011-04-04T07:20:48.905410Z
+11864
+pgiraud
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9049
 
 MapGuide.html
 file
@@ -672,6 +672,40 @@ bartvde
 
 11361
 
+GeoRSS.html
+file
+
+
+
+
+2011-07-19T21:35:13.729238Z
+e4e19d70ab4aba309870bfcde69f3078
+2011-02-21T10:10:25.916566Z
+11162
+pgiraud
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10391
+
 Vector.html
 file
 
@@ -706,39 +740,8 @@ has-props
 
 42357
 
-GeoRSS.html
-file
-
-
-
-
-2011-07-19T21:35:13.729238Z
-e4e19d70ab4aba309870bfcde69f3078
-2011-02-21T10:10:25.916566Z
-11162
-pgiraud
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10391
+WMS
+dir
 
 TMS.html
 file
@@ -774,19 +777,16 @@ has-props
 
 8526
 
-WMS
-dir
-
 MapServer.html
 file
 
 
 
 
-2011-07-25T21:05:35.119107Z
-7b293fa33497ab77754e51f4375bc50e
-2011-07-25T11:42:43.289673Z
-12185
+2011-08-11T21:25:28.785173Z
+78bcdc2107fd161832e8329a67e82aec
+2011-08-10T08:35:27.876478Z
+12231
 ahocevar
 has-props
 
@@ -809,7 +809,7 @@ has-props
 
 
 
-16337
+18416
 
 SphericalMercator.html
 file
@@ -845,6 +845,9 @@ has-props
 
 5693
 
+Google
+dir
+
 data_Layer_Text_textfile_2.txt
 file
 
@@ -878,9 +881,6 @@ has-props
 
 
 146
-
-Google
-dir
 
 data_Layer_Text_textfile_overflow.txt
 file
@@ -950,40 +950,6 @@ has-props
 
 3946
 
-WrapDateLine.html
-file
-
-
-
-
-2011-07-19T21:35:13.729238Z
-760c7478887c442d19f0d1ebb83856e7
-2011-04-28T17:38:33.469483Z
-11925
-fredj
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9807
-
 FixedZoomLevels.html
 file
 
@@ -1017,6 +983,40 @@ has-props
 
 
 5292
+
+WrapDateLine.html
+file
+
+
+
+
+2011-07-19T21:35:13.729238Z
+760c7478887c442d19f0d1ebb83856e7
+2011-04-28T17:38:33.469483Z
+11925
+fredj
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9807
 
 MultiMap.html
 file
@@ -1163,10 +1163,10 @@ file
 
 
 
-2011-07-25T21:05:35.119107Z
-3dfdcd2b59d006170cfa8eae74c6d1c1
-2011-07-25T11:42:43.289673Z
-12185
+2011-08-11T21:25:28.785173Z
+e8df19b5350a53eab9c2abcaffbd7395
+2011-08-10T08:35:27.876478Z
+12231
 ahocevar
 has-props
 
@@ -1189,7 +1189,7 @@ has-props
 
 
 
-6873
+7530
 
 PointGrid.html
 file
@@ -1265,10 +1265,10 @@ file
 
 
 
-2011-07-25T21:05:35.119107Z
-d1bfa30063a852e2256152e7066a4281
-2011-07-25T11:42:43.289673Z
-12185
+2011-08-11T21:25:28.785173Z
+4a4c942b43be8793e914489e9b4a21da
+2011-08-10T08:35:27.876478Z
+12231
 ahocevar
 has-props
 
@@ -1291,7 +1291,7 @@ has-props
 
 
 
-5131
+5953
 
 WMS.html
 file
@@ -1299,10 +1299,10 @@ file
 
 
 
-2011-07-25T21:05:35.119107Z
-d634b2dc5b3d508ebc53958a72f85ebd
-2011-07-25T11:42:43.289673Z
-12185
+2011-08-11T21:25:28.785173Z
+0681ee8a485225143bcff22ab470cff9
+2011-08-10T08:35:27.876478Z
+12231
 ahocevar
 has-props
 
@@ -1325,7 +1325,7 @@ has-props
 
 
 
-21230
+22348
 
 mice.xml
 file

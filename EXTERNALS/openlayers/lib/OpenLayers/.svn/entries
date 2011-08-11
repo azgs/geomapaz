@@ -1,15 +1,15 @@
 10
 
 dir
-12227
+12236
 http://svn.openlayers.org/trunk/openlayers/lib/OpenLayers
 http://svn.openlayers.org
 
 
 
-2011-08-09T17:33:37.139213Z
-12227
-ahocevar
+2011-08-11T13:21:04.701947Z
+12236
+erilem
 
 
 
@@ -72,11 +72,11 @@ file
 
 
 
-2011-07-19T21:35:14.769238Z
-56de880199cffe509f33a9487413bc49
-2011-07-06T07:22:31.402294Z
-12158
-ahocevar
+2011-08-11T21:25:28.915173Z
+7a1dddaf6107053d844bdf4b118026a3
+2011-08-11T13:21:04.701947Z
+12236
+erilem
 has-props
 
 
@@ -98,7 +98,7 @@ has-props
 
 
 
-89630
+89697
 
 Format
 dir
@@ -427,40 +427,6 @@ has-props
 
 6251
 
-BaseTypes.js
-file
-
-
-
-
-2011-08-09T19:44:05.565219Z
-485ed25fd6609438487d11147bff0970
-2011-08-03T14:32:10.414703Z
-12202
-fredj
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17782
-
 Symbolizer.js
 file
 
@@ -494,6 +460,40 @@ tschaub
 
 
 1553
+
+BaseTypes.js
+file
+
+
+
+
+2011-08-09T19:44:05.565219Z
+485ed25fd6609438487d11147bff0970
+2011-08-03T14:32:10.414703Z
+12202
+fredj
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17782
 
 Popup.js
 file
@@ -566,9 +566,6 @@ has-props
 Control
 dir
 
-Marker
-dir
-
 Renderer.js
 file
 
@@ -602,6 +599,9 @@ has-props
 
 
 10610
+
+Marker
+dir
 
 Rule.js
 file
@@ -637,40 +637,6 @@ has-props
 
 7595
 
-Layer.js
-file
-
-
-
-
-2011-08-09T19:44:05.565219Z
-3b931a6a04d0fe7512eeb95b0d21e664
-2011-08-09T17:33:37.139213Z
-12227
-ahocevar
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-44919
-
 Projection.js
 file
 
@@ -704,6 +670,40 @@ has-props
 
 
 7081
+
+Layer.js
+file
+
+
+
+
+2011-08-11T21:25:28.915173Z
+5f43c2df24a15672afceb01ca9de555a
+2011-08-10T08:35:27.876478Z
+12231
+ahocevar
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+44854
 
 Util.js
 file

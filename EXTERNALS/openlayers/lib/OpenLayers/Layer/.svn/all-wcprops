@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/!svn/ver/12201/trunk/openlayers/lib/OpenLayers/Layer
+/!svn/ver/12231/trunk/openlayers/lib/OpenLayers/Layer
 END
 Markers.js
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/!svn/ver/12185/trunk/openlayers/lib/OpenLayers/Layer/Markers.js
+/!svn/ver/12231/trunk/openlayers/lib/OpenLayers/Layer/Markers.js
 END
 WMS.js
 K 25
@@ -99,17 +99,17 @@ svn:wc:ra_dav:version-url
 V 62
 /!svn/ver/11681/trunk/openlayers/lib/OpenLayers/Layer/KaMap.js
 END
-WMTS.js
-K 25
-svn:wc:ra_dav:version-url
-V 61
-/!svn/ver/12095/trunk/openlayers/lib/OpenLayers/Layer/WMTS.js
-END
 XYZ.js
 K 25
 svn:wc:ra_dav:version-url
 V 60
 /!svn/ver/12095/trunk/openlayers/lib/OpenLayers/Layer/XYZ.js
+END
+WMTS.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/12095/trunk/openlayers/lib/OpenLayers/Layer/WMTS.js
 END
 MapGuide.js
 K 25
@@ -117,29 +117,29 @@ svn:wc:ra_dav:version-url
 V 65
 /!svn/ver/12147/trunk/openlayers/lib/OpenLayers/Layer/MapGuide.js
 END
-ArcGISCache.js
-K 25
-svn:wc:ra_dav:version-url
-V 68
-/!svn/ver/12095/trunk/openlayers/lib/OpenLayers/Layer/ArcGISCache.js
-END
 Zoomify.js
 K 25
 svn:wc:ra_dav:version-url
 V 64
 /!svn/ver/12095/trunk/openlayers/lib/OpenLayers/Layer/Zoomify.js
 END
-Vector.js
+ArcGISCache.js
 K 25
 svn:wc:ra_dav:version-url
-V 63
-/!svn/ver/12187/trunk/openlayers/lib/OpenLayers/Layer/Vector.js
+V 68
+/!svn/ver/12095/trunk/openlayers/lib/OpenLayers/Layer/ArcGISCache.js
 END
 GeoRSS.js
 K 25
 svn:wc:ra_dav:version-url
 V 63
 /!svn/ver/10995/trunk/openlayers/lib/OpenLayers/Layer/GeoRSS.js
+END
+Vector.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/12187/trunk/openlayers/lib/OpenLayers/Layer/Vector.js
 END
 TMS.js
 K 25
@@ -199,7 +199,7 @@ WFS.js
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/!svn/ver/12185/trunk/openlayers/lib/OpenLayers/Layer/WFS.js
+/!svn/ver/12231/trunk/openlayers/lib/OpenLayers/Layer/WFS.js
 END
 PointGrid.js
 K 25
