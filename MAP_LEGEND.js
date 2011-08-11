@@ -43,7 +43,9 @@ function addMap() {
 	        	transparent: true,
 	        	format: "png24"
 	        },
-	        { isBaseLayer: false }
+	        { 
+	        	isBaseLayer: false
+	        }
 	    );
 	
 	//Create wms polygon base layer/////////////////////////////////////////////////////////
@@ -55,7 +57,10 @@ function addMap() {
 	        	transparent: true,
 	        	format: "png24"
 	        },
-	        { isBaseLayer: false }
+	        { 
+	        	isBaseLayer: false,
+	        	singleTile: true
+	        }
 	    );
 
 	//Create a vector layer to highlight selected feature//////////////////////////
