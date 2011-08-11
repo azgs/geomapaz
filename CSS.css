@@ -102,7 +102,7 @@
 }
 
 .x-menu-item-checked .x-menu-group-item .x-menu-item-icon {
-    background-image: url("SRC/check-mark.png");
+    background-image: url("SRC/check-mark.png") !important;
 }
 
 .x-toolbar div.xtb-text {

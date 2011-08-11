@@ -29,12 +29,6 @@ function addItemHelp(icon){
 				handler: function(button, evt) {
 					winHelpUsingApp.show();
 				}
-			},{
-				id: 'M_HELP_IF',
-				text: 'Installing the Required Font',
-				handler: function(button, evt) {
-					winHelpFont.show();
-				}
 			},
 			'-',
 			{
