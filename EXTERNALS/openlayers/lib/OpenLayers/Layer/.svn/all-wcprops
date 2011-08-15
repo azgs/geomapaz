@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/!svn/ver/12201/trunk/openlayers/lib/OpenLayers/Layer
+/!svn/ver/12231/trunk/openlayers/lib/OpenLayers/Layer
 END
 Markers.js
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/!svn/ver/12185/trunk/openlayers/lib/OpenLayers/Layer/Markers.js
+/!svn/ver/12231/trunk/openlayers/lib/OpenLayers/Layer/Markers.js
 END
 WMS.js
 K 25
@@ -199,7 +199,7 @@ WFS.js
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/!svn/ver/12185/trunk/openlayers/lib/OpenLayers/Layer/WFS.js
+/!svn/ver/12231/trunk/openlayers/lib/OpenLayers/Layer/WFS.js
 END
 PointGrid.js
 K 25

@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 47
-/!svn/ver/12227/trunk/openlayers/lib/OpenLayers
+/!svn/ver/12236/trunk/openlayers/lib/OpenLayers
 END
 Map.js
 K 25
 svn:wc:ra_dav:version-url
 V 54
-/!svn/ver/12158/trunk/openlayers/lib/OpenLayers/Map.js
+/!svn/ver/12236/trunk/openlayers/lib/OpenLayers/Map.js
 END
 Handler.js
 K 25
@@ -115,7 +115,7 @@ Layer.js
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/!svn/ver/12227/trunk/openlayers/lib/OpenLayers/Layer.js
+/!svn/ver/12231/trunk/openlayers/lib/OpenLayers/Layer.js
 END
 Util.js
 K 25

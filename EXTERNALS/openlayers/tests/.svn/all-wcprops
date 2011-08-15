@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 38
-/!svn/ver/12218/trunk/openlayers/tests
+/!svn/ver/12236/trunk/openlayers/tests
 END
 georss.txt
 K 25
@@ -19,7 +19,7 @@ Map.html
 K 25
 svn:wc:ra_dav:version-url
 V 47
-/!svn/ver/12158/trunk/openlayers/tests/Map.html
+/!svn/ver/12236/trunk/openlayers/tests/Map.html
 END
 owls.xml
 K 25
@@ -163,7 +163,7 @@ Layer.html
 K 25
 svn:wc:ra_dav:version-url
 V 49
-/!svn/ver/12185/trunk/openlayers/tests/Layer.html
+/!svn/ver/12231/trunk/openlayers/tests/Layer.html
 END
 Util.html
 K 25

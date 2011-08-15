@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 44
-/!svn/ver/12187/trunk/openlayers/tests/Layer
+/!svn/ver/12235/trunk/openlayers/tests/Layer
 END
 Google.html
 K 25
@@ -55,7 +55,7 @@ ArcGIS93Rest.html
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/!svn/ver/12185/trunk/openlayers/tests/Layer/ArcGIS93Rest.html
+/!svn/ver/12231/trunk/openlayers/tests/Layer/ArcGIS93Rest.html
 END
 Image.html
 K 25
@@ -79,7 +79,7 @@ Grid.html
 K 25
 svn:wc:ra_dav:version-url
 V 54
-/!svn/ver/11482/trunk/openlayers/tests/Layer/Grid.html
+/!svn/ver/12235/trunk/openlayers/tests/Layer/Grid.html
 END
 KaMap.html
 K 25
@@ -87,17 +87,17 @@ svn:wc:ra_dav:version-url
 V 55
 /!svn/ver/11481/trunk/openlayers/tests/Layer/KaMap.html
 END
-XYZ.html
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/!svn/ver/11864/trunk/openlayers/tests/Layer/XYZ.html
-END
 WMTS.html
 K 25
 svn:wc:ra_dav:version-url
 V 54
 /!svn/ver/11162/trunk/openlayers/tests/Layer/WMTS.html
+END
+XYZ.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/11864/trunk/openlayers/tests/Layer/XYZ.html
 END
 MapGuide.html
 K 25
@@ -117,17 +117,17 @@ svn:wc:ra_dav:version-url
 V 61
 /!svn/ver/11693/trunk/openlayers/tests/Layer/ArcGISCache.json
 END
-GeoRSS.html
-K 25
-svn:wc:ra_dav:version-url
-V 56
-/!svn/ver/11162/trunk/openlayers/tests/Layer/GeoRSS.html
-END
 Vector.html
 K 25
 svn:wc:ra_dav:version-url
 V 56
 /!svn/ver/12187/trunk/openlayers/tests/Layer/Vector.html
+END
+GeoRSS.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/11162/trunk/openlayers/tests/Layer/GeoRSS.html
 END
 TMS.html
 K 25
@@ -139,7 +139,7 @@ MapServer.html
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/!svn/ver/12185/trunk/openlayers/tests/Layer/MapServer.html
+/!svn/ver/12231/trunk/openlayers/tests/Layer/MapServer.html
 END
 SphericalMercator.html
 K 25
@@ -165,29 +165,29 @@ svn:wc:ra_dav:version-url
 V 60
 /!svn/ver/11162/trunk/openlayers/tests/Layer/PointTrack.html
 END
-WrapDateLine.html
-K 25
-svn:wc:ra_dav:version-url
-V 62
-/!svn/ver/11925/trunk/openlayers/tests/Layer/WrapDateLine.html
-END
 FixedZoomLevels.html
 K 25
 svn:wc:ra_dav:version-url
 V 65
 /!svn/ver/12105/trunk/openlayers/tests/Layer/FixedZoomLevels.html
 END
-HTTPRequest.html
+WrapDateLine.html
 K 25
 svn:wc:ra_dav:version-url
-V 61
-/!svn/ver/11162/trunk/openlayers/tests/Layer/HTTPRequest.html
+V 62
+/!svn/ver/11925/trunk/openlayers/tests/Layer/WrapDateLine.html
 END
 atom-1.0.xml
 K 25
 svn:wc:ra_dav:version-url
 V 56
 /!svn/ver/6712/trunk/openlayers/tests/Layer/atom-1.0.xml
+END
+HTTPRequest.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/11162/trunk/openlayers/tests/Layer/HTTPRequest.html
 END
 MultiMap.html
 K 25
@@ -205,7 +205,7 @@ WFS.html
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/!svn/ver/12185/trunk/openlayers/tests/Layer/WFS.html
+/!svn/ver/12231/trunk/openlayers/tests/Layer/WFS.html
 END
 PointGrid.html
 K 25
@@ -223,13 +223,13 @@ Markers.html
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/!svn/ver/12185/trunk/openlayers/tests/Layer/Markers.html
+/!svn/ver/12231/trunk/openlayers/tests/Layer/Markers.html
 END
 WMS.html
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/!svn/ver/12185/trunk/openlayers/tests/Layer/WMS.html
+/!svn/ver/12231/trunk/openlayers/tests/Layer/WMS.html
 END
 mice.xml
 K 25

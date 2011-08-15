@@ -8,89 +8,60 @@
 
 var gSatLayer, gStrLayer, gHybLayer, gPhyLayer;
 
-function addMap() {
+function addMap() {	
 	
 	map = new OpenLayers.Map({
 		projection: new OpenLayers.Projection('EPSG:3857'),
-		displayProjection: new OpenLayers.Projection('EPSG:4326'),
 		controls: [
-		new OpenLayers.Control.Navigation({
-			id: 'C_PAN'
-		}),
-		new OpenLayers.Control.ZoomPanel({
-			id: 'C_ZOOM_PANEL'
-		})
+			new OpenLayers.Control.Navigation({
+				id: 'C_PAN'
+			}),
+			new OpenLayers.Control.ZoomPanel({
+				id: 'C_ZOOM_PANEL'
+			})
 		],
 		maxExtent: new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34),
 		maxResolution: 156543.0339,
-		units: 'dd',
+		units: 'm',
 		eventListeners: {
 			"moveend": updateLegend
 		}
 	});
 	
-	gStrLayer = new OpenLayers.Layer.Google(
-        "Google Streets",
-        {
-        	type: G_NORMAL_MAP,
-        	sphericalMercator: true,
-        	projection: map.projection
-        }
-    );
-    
-	gSatLayer = new OpenLayers.Layer.Google(
-        "Google Satellite",
-        {
-        	type: G_SATELLITE_MAP, 
-        	sphericalMercator: true,
-        	projection: map.projection
-        }
-    );
-    
-	gHybLayer = new OpenLayers.Layer.Google(
-        "Google Hybrid",
-        {
-        	type: G_HYBRID_MAP, 
-        	sphericalMercator: true,
-        	projection: map.projection
-        }
-    );
-
-	gPhyLayer = new OpenLayers.Layer.Google(
-        "Google Physical",
-        {
-        	type: G_PHYSICAL_MAP, 
-        	sphericalMercator: true,
-        	projection: map.projection
-        }
-    );
+	v3Layers = new googleLayers3();
+	gStrLayer = v3Layers.streets;
+	gSatLayer = v3Layers.satellite;
+	gHybLayer = v3Layers.hybrid;
+	gPhyLayer = v3Layers.physical;
 
 	//Create wms polyline base layer/////////////////////////////////////////////////////////
 	wmsPolylineLayer = new OpenLayers.Layer.WMS(
-	"Contacts, Faults and other Lines",
-	"http://50.19.88.63/ArcGIS/services/GeologicMapOfArizona/MapServer/WMSServer", {
-		layers: ['1', '2'],
-		format: 'image/png',
-		transparent: 'true'
-	},
-	{	isBaseLayer: false,
-		singleTile: true,
-		maxResolution: 17034.82829271617
-	}
-	);
+	        "Geologic Map",
+	        "http://50.19.88.63/ArcGIS/services/GeologicMapOfArizona/MapServer/WMSServer",
+	        {
+	        	layers: ["1", "2"],
+	        	transparent: true,
+	        	format: "png24"
+	        },
+	        { 
+	        	isBaseLayer: false
+	        }
+	    );
 	
 	//Create wms polygon base layer/////////////////////////////////////////////////////////
 	wmsPolygonLayer = new OpenLayers.Layer.WMS(
-	"Distribution of Map Units",
-	"http://50.19.88.63/ArcGIS/services/GeologicMapOfArizona/MapServer/WMSServer", {
-		layers: ['0'],
-		format: 'image/png',
-		transparent: 'true'
-	},
-	{	isBaseLayer: false,
-		singleTile: true
-		}
-	);
+	        "Geologic Map",
+	        "http://50.19.88.63/ArcGIS/services/GeologicMapOfArizona/MapServer/WMSServer",
+	        {
+	        	layers: ["0"],
+	        	transparent: true,
+	        	format: "png24"
+	        },
+	        { 
+	        	isBaseLayer: false,
+	        	singleTile: true
+	        }
+	    );
 
 	//Create a vector layer to highlight selected feature//////////////////////////
 	selectLayer = new OpenLayers.Layer.Vector(
