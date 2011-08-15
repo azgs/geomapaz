@@ -117,7 +117,7 @@
 }
 
 .x-menu-item-checked .x-menu-group-item .x-menu-item-icon {
-    background-image: url("SRC/check-mark.png");
+    background-image: url("SRC/check-mark.png") !important;
 }
 
 .x-toolbar div.xtb-text {
@@ -150,6 +150,10 @@
     text-align: center;
 }
 
+.dmu_item_text {
+    font-size: 13px !important;
+}
+
 #LEGEND_LINES {
     border-style: solid;
     border-width: 1px;
@@ -157,8 +161,12 @@
 
 #LEGEND_LINES .x-panel-body{
     color: #15428B !important;
-    font-size: small;
+    font-size: 13px;
     font-family: sans-serif;
+}
+
+#LEGEND_LINES b{
+    font-size: 14px;
 }
 
 #LEGEND_UNITS_CONTAINER {
