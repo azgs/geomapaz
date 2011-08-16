@@ -58,8 +58,8 @@ function addMap() {
 	        	format: "png24"
 	        },
 	        { 
-	        	isBaseLayer: false,
-	        	singleTile: true
+	        	isBaseLayer: false
+	        	//singleTile: true
 	        }
 	    );
 
