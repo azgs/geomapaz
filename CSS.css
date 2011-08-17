@@ -48,24 +48,10 @@
 	background-repeat: no-repeat;
 }
 
-.x-grid3-cell-inner { 
-	white-space: normal; 
+.x-grid3-cell-inner, .x-grid3-hd-inner { 
+	white-space: normal !important; 
 }
-/**********Define logo css****************************************/
-/*
-#I_LOGO {
-	z-index: 1100;
-	position: absolute;
-	right: 5px;
-	bottom: 5px;
-	background-repeat: no-repeat;
-	background-image: url('SRC/logo.png');
-	background-position: center center;
-	width: 64px;
-	height: 64px;
-	
-}
-*/
+
 /**********Define font for IE and other browsers******************/
 
 @font-face	{
