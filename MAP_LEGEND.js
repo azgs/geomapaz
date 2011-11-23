@@ -37,7 +37,7 @@ function addMap() {
 	//Create wms polyline base layer/////////////////////////////////////////////////////////
 	wmsPolylineLayer = new OpenLayers.Layer.WMS(
 	        "Geologic Map",
-	        "http://50.19.88.63/ArcGIS/services/GeologicMapOfArizona/MapServer/WMSServer",
+	        "http://159.87.39.14/ArcGIS/services/GeologicMapOfArizona/MapServer/WMSServer",
 	        {
 	        	layers: ["1", "2"],
 	        	transparent: true,
@@ -51,7 +51,7 @@ function addMap() {
 	//Create wms polygon base layer/////////////////////////////////////////////////////////
 	wmsPolygonLayer = new OpenLayers.Layer.WMS(
 	        "Geologic Map",
-	        "http://50.19.88.63/ArcGIS/services/GeologicMapOfArizona/MapServer/WMSServer",
+	        "http://159.87.39.14/ArcGIS/services/GeologicMapOfArizona/MapServer/WMSServer",
 	        {
 	        	layers: ["0"],
 	        	transparent: true,
