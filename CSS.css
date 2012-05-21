@@ -253,3 +253,7 @@
     padding: 10px !important;
 }
 
+/*Disable Google copyright popup*/
+.olLayerGoogleV3.olLayerGooglePoweredBy {
+	display: none;
+}
