@@ -24,7 +24,7 @@ function addMap() {
 		maxResolution: 156543.0339,
 		units: 'm',
 		eventListeners: {
-			"moveend": updateLegend
+/*Remove temporarily*			"moveend": updateLegend*/
 		}
 	});
 	

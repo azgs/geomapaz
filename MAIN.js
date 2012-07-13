@@ -58,12 +58,13 @@ var map, wmsPolylineLayer, wmsPolygonLayer, selectLayer;
 						split: true,
 						collapseMode: 'mini',
 						items: [
+						/*Removed temporarily
 				            {
 				                xtype: 'panel',
 				                id: 'lEGEND_UNITS',
 				                layout: 'fit',
 				                region: 'center'
-				            },
+				            },*/
 				            itemLineLegend
 				            
 						]

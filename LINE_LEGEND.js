@@ -11,7 +11,9 @@ function addLineLegend(){
 		layout: 'table',
 		height: 200,
 		split: true,
-		region: 'south',
+/*Changed temporarily
+		region: 'south',*/
+		region: 'center',
 		layoutConfig: {
 			columns: 2
 		},
